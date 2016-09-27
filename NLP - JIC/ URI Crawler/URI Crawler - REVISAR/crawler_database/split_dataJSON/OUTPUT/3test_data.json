@@ -1,0 +1,326 @@
+[
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "1664",
+        "saida": "Consiste em um número: o número médio de palavras diferentes necessárias para ganhar o jogo. Escreva o número como uma fração reduzida no formato mostrado a seguir. Reduzir a fração significa que não pode haver um inteiro maior que 1 que divide o numerador e o denominador. Por exemplo, se havia 10 jogos, e o número de palavras diferentes em cada jogo totalizam 55, imprima 11/2.",
+        "descricao": "Bullshit Bingo é um jogo para fazer palestras, seminários e reuniões menos entediantes. Cada jogador tem um cartão com 5 linhas e 5 colunas. Cada uma das 25 células contém uma palavra (a célula do centro sempre tem a palavra BINGO escrita em si). Sempre que um jogador ouvir uma palavra que estiver escrita em seu cartão, ele pode marcá-la. A célula do centro já é marcada quando o jogo começa. Se um jogador tiver marcado todas as palavras na linha, na coluna ou na diagonal, ele se levanta e grita BULLSHIT. Depois disto, o jogo começa mais uma vez. Sentado em uma palestra, você observa que alguns estudantes no auditório estão jogando Bullshit Bingo. Você se pergunta qual o número médio de palavras diferentes até que BULLSHIT seja exclamado. Para o propósito deste problema, uma palavra consiste de letras do alfabeto Inglês (a a z, A a Z). Palavras são separadas por caracteres com exceção das letras (por exemplo espaços, dígitos e pontuação). Faça a comparação das palavras ignorando se ela estiver em maiúsculo ou minúsculo, em outras palavras, Bingo é o mesmo que bingo. Quando contar o número de palavras, ignore a palavra BULLSHIT (que indica o fim do jogo), e considere somente as palavras do jogo atual, ou seja, se uma palavra já ocorreu no jogo anterior, você ainda pode contá-la no jogo atual. Se o último jogo estiver inacabado, ignore as palavras desse jogo.",
+        "titulo": "Bullshit Bingo",
+        "entrada": "O arquivo de entrada consiste no texto de uma palestra, com BULLSHIT ocorrendo ocasionalmente. O primeiro jogo começa com a primeira palavra da entrada. Cada ocorrência da palavra BULLSHIT indica o fim de um jogo. Você pode assumir, que a palavra BULLSHIT ocorre somente em letras maiúsculas cada palavra tem no máximo 25 letras, e cada linha tem no máximo 100 letras há no máximo 500 palavras diferentes antes que um jogo termine os jogadores seguem as regras, então não há necessidade de verificar se o jogo é válido ou não"
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "2150",
+        "saida": "Para cada caso de teste, imprima a quantidade de vogais alienígenas correspondente.",
+        "descricao": "Desde o Gerador de Improbabilidade Infinita, muitos nem questionam sobre a vida em outros planetas, e se aprofundam em questionamentos mais improváveis, como, por exemplo, será que seres de outros planetas usam os mesmos caracteres que a gente para escrever? E se isto for verdade, será que usam as mesmas vogais que a gente? Pensando nisto, muitos cientistas projetaram vários tipos de alfabetos alienígenas, usando as letras do nosso alfabeto, além dos dígitos, de 0 a 9, com as suas respectivas vogais. Baseados nisto, estes pedem a sua ajuda para identificar vogais em alfabetos alienígenas e fazer contagens a respeito. Escreva um programa que, dado uma sequência de vogais, em um determinado alfabeto alienígena, contabilize, em um texto escrito com o mesmo alfabeto, quantas vogais o mesmo possui.",
+        "titulo": "Vogais Alienígenas",
+        "entrada": "Haverá diversos casos de teste. Cada caso de teste é formado por duas linhas. A primeira linha informa uma palavra, formada por todas as vogais alienígenas de um determinado planeta. A segunda linha contém uma frase formada por letras do mesmo alfabeto. A entrada termina com fim de arquivo."
+    },
+    {
+        "nivel": "1",
+        "assunto": "3",
+        "numero": "2157",
+        "saida": "Para cada caso de teste, imprima a sequência espelho correspondente.",
+        "descricao": "Imprimir números em sequência é uma tarefa relativamente simples. Mas, e quando se trata de uma sequência espelho? Trata-se de uma sequência que possui um número de início e um número de fim, e todos os números entre estes, inclusive estes, são dispostos em uma sequência crescente, sem espaços e, em seguida, esta sequência é projetada de forma invertida, como um reflexo no espelho. Por exemplo, se a sequência for de 7 a 12, o resultado ficaria 789101112211101987 Escreva um programa que, dados dois números inteiros, imprima a respectiva sequência espelho.",
+        "titulo": "Sequência Espelho",
+        "entrada": "A entrada possui um valor inteiro C indicando a quantidade de casos de teste. Em seguida, cada caso apresenta dois valores inteiros, B e E (1 ≤ B ≤ E ≤ 12221), indicando o início e o fim da sequência."
+    },
+    {
+        "nivel": "3",
+        "assunto": "3",
+        "numero": "1254",
+        "saida": "Converto o texto do documento que é dado na entrada, utilizando as específicações dadas acima e imprima em uma única linha, o novo texto do documento com as novas tags, para maiores esclarecimentos consulte o exemplo abaixo.",
+        "descricao": "Você está no comando de um sistema de documentos que utiliza tags de código numérico para renderizar documentos para impressão. Há um lote de documentos com o texto baseado em tags, que você deve analisar e converter para tags numéricas para a entrada no sistema. Uma tag é iniciada por um caracter '<', que pode ser seguida por letras, números, barras ou espaços, e para finalizar a tag um caracter '>'. As tags não podem ser encaixadas umas nas outras. As seguintes tags não são válidas: \">HI\", \"c>\", \"\". As seguintes tags são válidas: \"/=HI\", \"/H=I/\", \"\", \"\", \"\". Para as comparações entre caracteres deve ser desconsiderado o case sensitive.",
+        "titulo": "Substituição de Tag",
+        "entrada": "A entrada contém vários casos de teste. Cada caso de teste é composto de três linhas. A primeira linha contém a tag original presente no texto do documento, que irá conter apenas letras (a-z, A-Z), e seu tamanho será entre 1 e 10 caracteres inclusive. A segunda linha contém um valor numérico pela qual a tag original deverá ser substituida, que será um número entre 1 e 1000 inclusive. A terceira e última linha terá entre 1 e 50 caracteres inclusive, e poderá conter os letras (a-z, A-Z), números (0-9), sinal de menor (), sinais de igual (=), barras (/), ou espaços em branco. Todos os '' são usados apenas em tags."
+    },
+    {
+        "nivel": "",
+        "assunto": "",
+        "numero": "1367",
+        "saida": "Para cada caso de teste a entrada do seu programa deve imprimir uma linha contendo dois inteiros S e P, separados por um espaço, onde S é o número de problemas distintos com o julgamento \"correct\" e P é o tempo no qual cada problema distinto foi julgado pela primeira vez como \"correct\", somado a 20 para cada julgamento \"incorrect\" recebido nesse problema (desde que no final o problema tenha sido julgado como \"correct\"). A saída deve ser escrita na saída padrão.",
+        "descricao": "Então, nós temos que admitir: precisamos da sua ajuda. Esse ano as coisas não estao correndo tão tranquilamente quanto queríamos, e nós não conseguimos finalizar o sistema do software da competição a tempo. Uma parte vital está faltando, e como você sabe, nós precisamos desse sistema funcionando até essa tarde, para a verdadeira competição. A parte que está faltando é a que computa a pontuação dos times, dada a lista de submissões desse time. Por favor, por favor, alguém nos ajude!",
+        "titulo": "Ajude!",
+        "entrada": "A entrada contém vários casos de teste. A primeira linha de caso de teste contém um único inteiro N indicando o número de submissões do caso de teste (1 ≤ N ≤ 300). Cada uma das N linhas seguintes descrevem uma submissão; cada uma dessas linhas contém um identificador de problema (uma única letra entre 'A' e 'Z'), seguida por um inteiro T representando o tempo em minutos (0 ≤ T ≤ 300), seguido por um julgamento (a palavra \"correct\", correto, ou a palavra \"incorrect\", incorreto). A entrada está em ordem crescente de tempo, e haverá no máximo um julgamento \"correct\" para cada problema. O final da entrada é indicado por N = 0. A entrada deve ser lida da entrada padrão."
+    },
+    {
+        "nivel": "7",
+        "assunto": "3",
+        "numero": "1859",
+        "saida": "Imprima uma linha contendo unicamente o menor número possível de pares maus numa classificação dos indivíduos nas famílias.",
+        "descricao": "Após desfazerem o plano maquiavélico do malévolo Hans e salvarem o reino de Arendelle, Elsa, Anna e Kristoff iniciaram um projeto arqueológico para saber mais sobre o passado pré-histórico do continente sobre o qual hoje se situa Arendelle. Durante as escavações, eles descobriram que na verdade o continente foi formado geologicamente através da colisão entre quatro continentes outrora separados. Eles conseguiram inclusive descobrir os nomes com os quais os povos da época chavam esses continentes: Westeros, Essos, Sothoryos e Ulthos. No entanto, ainda estão no processo de identificar as famílias que habitavam o primeiro continente, Westeros, já que a promiscuidade entre os povos antigos era muito grande e os registros parecem muito confusos. Na presente etapa do projeto, eles estão considerando apenas que os povos eram divididos em duas grandes famílias: Stark e Lannister. Futuramente eles pretendem dividir essas famílias melhor. Por ora, o objetivo é, dados os códigos genéticos dos indivíduos fossilizados, classificar os indivíduos nessas duas famílias visando minimizar as relações de parentesco entre indivíduos classificados em famílias diferentes. Mais formalmente, dizemos que um indivíduo X é parente de um indivíduo Y se os códigos genéticos de ambos os indivíduos partilham de uma parte idêntica e contígua com comprimento no mínimo P% do comprimento de um dos códigos — como os indivíduos são todos humanos, os códigos genéticos possuem sempre o mesmo comprimento. Por exemplo, tomemos os indivíduos de códigos GATAGACA e CATACAGA. Se o critério de parentesco P é igual a 62, os indivíduos devem ser considerados parentes, já que ACAGA é uma parte contígua comum a ambos de comprimento 5 ≥ 8 × 62% (se você não consegue entender por que ACAGA é uma parte contígua de GATAGACA, entenda que Elsa e sua equipe consideram códigos genéticos como cadeias circulares). Agora, se P = 63, os indivíduos não devem ser considerados parentes. Destarte, o objetivo dos pesquisadores de Arendelle é classificar os indivíduos fossilizados nas famílias Stark e Lannister visando minimizar o número de pares maus. Dizemos que um par (s, l) é mau se satisfaz as três condições a seguir: s foi classificado como Stark; l foi classificado como Lannister; s deve ser considerado parente de l segundo o critério de parentesco estabelecido. Obrigatoriamente, ao menos um indivíduo deve ser classificado como Stark e ao menos um como Lannister.",
+        "titulo": "Arqueologia Congelante",
+        "entrada": "A primeira linha da entrada consiste de dois inteiros, N e P (2 ≤ N ≤ 50, 0 ≤ P ≤ 100), os quais representam respectivamente o número de indivíduos fossilizados e o critério de parentesco estabelecido. Cada uma das N linhas seguintes consiste de no máximo 104 caracteres no conjunto {A, T, C, G}, representando o código genético de um indivíduo. À possível exceção da primeira, as linhas da entrada possuem todas o mesmo número de caracteres."
+    },
+    {
+        "nivel": "1",
+        "assunto": "3",
+        "numero": "2174",
+        "saida": "Você deverá imprimir: \"Falta(m) X pomekon(s).\", onde X representa a quantidade Pomekons não capturados.",
+        "descricao": "Desde que foi lançado oficialmente o Pomekon no Brasil, Dabriel está tentando realizar seu maior sonho: Ser um Mestre Pomekon. Sua meta é conquistar os 151 Pomekons disponíveis. Ele já conseguiu capturar muitos monstrinhos, porém em sua cidade aparecem muitos Pomekons repetidos, fazendo com que ele capture diversas vezes o mesmo Pomekon. Vendo que sua mochila está bem cheia, Dabriel pediu para que você fizesse um programa de computador que informasse a ele quantos Pomekons faltam para completar a coleção.",
+        "titulo": "Coleção de Pomekon",
+        "entrada": "A primeira linha do caso de teste consiste de um inteiro N (1 ≤ N ≤ 10³), representando a quantidade de Pomekons que Dabriel já capturou. As próximas N linhas consistem de uma string S (1 ≤ |S| ≤ 10³), representando o nome de cada Pomekons. O nome de cada Pomekons consiste apenas de letras maiúsculas e minúsculas."
+    },
+    {
+        "nivel": "",
+        "assunto": "",
+        "numero": "1373",
+        "saida": "Para cada caso de teste na entrada, seu programa deve imprimir uma única linha, contendo o comprimento da maior subsequência formada por segmentos consecutivos de comprimento de pelo menos K de ambas palavras. Se não existir uma subsequência comum de comprimento maior que zero, então deve ser imprimido 0.",
+        "descricao": "Thomas, um cientista da computação que trabalha com sequências de DNA, precisa computar as maiores subsequências comuns de dados pares de strings. Considere um alfabeto S de letras e uma palavra w = a1a2 ... ar, onde ai ∈ Σ, para i = 1, 2, ..., r. Uma subsequencia de w é uma palavra x = ai1ai2 ... ais tal que 1 ≤ i1 < i2 < ... < is ≤ r. A subsequência x é um segmento de w se ij+1 = ij + 1, para j = 1, 2, ..., s-1. Por exemplo a palavra ove é um segmento da palavra lovely, enquanto a palavra loly é uma subsequência de lovely, mas não um segmento. Uma palavra é uma subsequência comum de duas palavras w1 e w2 se ela é uma subsequência de cada uma das duas. Uma maior subsequência comum de w1 e w2 uma subsquência comum de w1 e w2 tendo o maior comprimento possível. Por exemplo, considere as palavras w1 = lovxxelyxxxxx e w2 = xxxxxxxlovely. As palavras w3 = lovely e w4 = xxxxxxx, a última de comprimento 7, são ambas subsequências comuns de w1 e w2. De fato, w4 é a maior subsequência comum delas. Perceba que a palavra vazia, de comprimento zero, é sempre uma subsequência comum, apesar não ser necessariamente a mais longa. No caso do Thomas, existe um requerimento extra: a subsequência tem que ser formada de segmentos comuns tendo comprimento K ou maior. Por exemplo, se Thomas decidir que K = 3, então ele considera lovely como uma subsequência comum aceitável de lovxxelyxxxxx e xxxxxxxlovely, enquanto xxxxxxx, que tem um comprimento de 7 e também é uma subsequência comum, não é aceitável. Você pode ajudar Thomas?",
+        "titulo": "Sequências de DNA",
+        "entrada": "A entrada consiste de vários casos de teste. A primeira linha de um caso de teste contém um inteiro K representando o comprimento mínimo de segmentos comuns, onde 1 ≤ K ≤ 100. As próximas duas linhas contém, em cada, uma palavra com letras minúsculas do alfabeto tradicional de 26 letras. O comprimento L de cada palavra satisfaz a desigualdade 1 ≤ L ≤ 103. Não existem espaços nas linhas de entrada. O final da entrada é indicado por uma linha contendo um zero."
+    },
+    {
+        "nivel": "",
+        "assunto": "",
+        "numero": "1503",
+        "saida": "Para cada caso de teste, a saída é um único inteiro, correspondente ao tamanho do maior palíndromo comum a todas as strings",
+        "descricao": "Mestre Yoda interceptou mensagens secretas do lado negro da força. Ele tem certeza de que todas elas contém uma mesma informação valiosíssima que pode ajudar os Jedi na luta contra os Sith. Além disso, ele sabe que a informação que ele procura é um palíndromo. Porém, as mensagens são muito grandes e por isso ele precisa da sua ajuda. Você deve criar um programa para dizer qual o tamanho do maior palíndromo comum a todas as mensagens que Mestre Yoda interceptou.",
+        "titulo": "Maior Palíndromo Comum Você Deve Encontrar",
+        "entrada": "A entrada contém vários casos de teste e termina com EOF. Cada caso de entrada do problema consiste de mensagens que Mestre Yoda possui. A primeira linha de um caso de teste possui o inteiro n (n <= 10), que é o número de mensagens As próximas n linhas possuem strings compostas apenas por letras minúsculas do alfabeto ('a' - 'z'). O tamanho máximo de cada string é 50000."
+    },
+    {
+        "nivel": "",
+        "assunto": "",
+        "numero": "1456",
+        "saida": "Para cada instância, você deverá imprimir um identificador \"Instancia k\", onde k é o número da instância atual. Na linha seguinte você deve imprimir a saída do código fornecido na entrada. Após cada instância, seu programa deve imprimir uma linha em branco.",
+        "descricao": "Linguagens de programação, times de futebol e religião não se discute. Cada um tem seus favoritos e não admite que o do outro seja melhor (que me perdoem os corinthianos, palmeirenses e são-paulinos). Um grupo de pesquisadores (que não tinha o que fazer) resolveu escrever uma linguagem de programação ideal'' (ideal prá quem, cara pálida?): o Brainfuck. Brainfuck é uma linguagem de programação cujo funcionamento é muito parecido com uma máquina de Turing. Essa máquina possui como componentes um vetor de 30000 bytes, indexado de 0 a 29999, e um ponteiro, que guarda uma posição desse vetor. Em cada passo, a máquina realiza uma instrução de acordo com o byte armazenado na posição do vetor indicada pelo ponteiro. Quando esse byte é igual a zero, a execução é terminada. O conjunto de instruções válidas da linguagem é o seguinte: Instrução Descrição > Incrementa o ponteiro. < Decrementa o ponteiro. + Incrementa o byte na posição indicada pelo ponteiro. - Decrementa o byte na posição indicada pelo ponteiro. . Imprime o valor do byte na posição indicada pelo ponteiro. , Lê um byte e armazena na posição indicada pelo ponteiro. Se não houver nada que possa ser lido (entrada acabou), armazenar zero. [ Início do loop: Executa o código delimitado até que o byte na posição indicada pelo ponteiro seja igual a zero. ] Fim do loop. # Imprime os valores das 10 primeiras posições do vetor. O ponteiro sempre começa com valor 0, assim como todas as posições do vetor. Na descrição de programas na linguagem brainfuck, caracteres diferentes dos descritos acima são ignorados.",
+        "titulo": "Brainfuck",
+        "entrada": "A entrada é composta de diversas instâncias. O número de instâncias é dado na primeira linha da entrada. Cada instância começa com uma linha em branco. A próxima linha contém uma cadeia de caracteres não-brancos (ou seja, diferentes de espaço em branco e tabulação), que vai conter a entrada para o programa. Ou seja, os comandos de leitura são realizados nessa cadeia. Toda a entrada para o programa está contida em uma única linha. Por fim, a terceira linha contém a descrição do programa. Assim como a segunda linha, esta também não contém caracteres brancos e está inteiramente contida em uma única linha (a separação feita no segundo exemplo de entrada foi feita para evitar o estouro de linha). Tanto a segunda como a terceira linha têm entre 1 e 100000 caracteres."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "1667",
+        "saida": "Você deve mostrar o texto resultante usando estas regras: Se você ler uma palavra na entrada e a linha resultante não for maior que 80 caracteres, imprima isto, se não, imprima em uma nova linha. Se você ler na entrada, comece uma nova linha. Se você ler na entrada, comece uma nova linha a menos que você já esteja no começo de uma linha, imprima 80 caracteres de ‘-‘ e comece uma nova linha (novamente). A última linha deve ser terminada com um caractere de nova linha.",
+        "descricao": "Se você alguma vez já tentou ler um documento html em um Macintosh, você sabe o quão difícil isso é sem um navegador instalado. Agora, quem pode esquecer de instalar um navegador HTML? Isso é muito fácil, pois a maioria das vezes você não precisa de um no MAC, porque existe um Acrobate Reader que é nativo para o MAC. Mas, e se você precisar de um, o que você faz? Sua tarefa é escrever um pequeno navegador html. Ele deve imprimir somente o conteúdo do arquivo de entrada e saber os comandos html (tags) o qual faz a quebra de linhas e que tem a função de régua horizontal. Então, você deve tratar de todos tabuladores, espaços e novas linhas em um único espaço e imprimir o texto resultante com não mais de 80 caracteres em uma única linha.",
+        "titulo": "HTML",
+        "entrada": "A entrada consiste de um texto que você deve mostrar. Esse texto é composto por palavras e HTML tags separadas por um ou mais espaços, tabuladores ou novas linhas. Uma palavra é uma sequência de letras, números e pontuações. Por exemplo, “abc,123” é uma palavra, mas “abc, 123” são duas palavras, chamadas “abc,” e “123”. Uma palavra é sempre menor que 81 caracteres e não contém nenhum ‘’. Todas tags HTML são ou ."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "1581",
+        "saida": "Imprima uma linha, contendo uma string S, representando o idioma mais apropriado para a conversa.",
+        "descricao": "Rafael recentemente recebeu uma bolsa de estudos e está fazendo intercâmbio fora do Brasil, onde conheceu várias pessoas de várias nacionalidades diferentes. O idioma nativo desse país é o Inglês, e todas as pessoas que Rafael conheceu falam inglês como primeira ou segunda língua. Como aprender um segundo idioma é uma tarefa difícil e cansativa, as pessoas preferem falar seu idioma nativo sempre que possível. Uma exceção à essa regra é quando há duas pessoas no grupo que não tem o mesmo idioma nativo. Nesse tipo de situação, o idioma utilizado é o inglês. Por exemplo, se em um grupo há só brasileiros, o idioma falado será o português, mas caso haja um espanhol entre os brasileiros, o idioma falado será o inglês. Rafael as vezes fica confuso sobre qual idioma deveria ser falado em cada grupo de pessoas, e para isso pediu sua ajuda.",
+        "titulo": "Conversa Internacional",
+        "entrada": "A primeira linha contém um inteiro N, indicando o número de casos de testes a seguir. Cada caso de teste inicia com um inteiro K (2 ≤ K ≤ 100), representando o número de pessoas no grupo. Em seguida haverá K linhas, contendo uma string S cada, representando o idioma nativo de cada uma dessas K pessoas. Cada string conterá no mínimo 1 e no máximo 20 caracteres, entre eles apenas letras minúsculas (a-z)."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "1277",
+        "saida": "Para cada caso de teste imprima os nomes de todos os estudantes que não cumpriram a presença mínima requerida, separados por um espaço. Não deixe espaços sobrando no final da linha.",
+        "descricao": "Os estudantes da tua universidade recentemente adquiriram o desagradável hábito de cabular as aulas. Para enfrentar este problema o seu Conselho de Professores decidiu somente permitir que estudantes com ao menos 75% de presença prestem os exames. A partir de uma lista de nomes de estudantes e seus respectivos registros de frequência, imprima o nome dos estudantes que não obtiveram o mínimo de presença às aulas e que consequentemente não poderão prestar os exames.",
+        "titulo": "Pouca Frequência",
+        "entrada": "A entrada possui diversos casos de testes. A primeira linha da entrada contém um inteiro T, que indica o número de casos de testes que se seguem. Cada caso de teste é composto por três linhas: A primeira linha de um caso de teste irá conter um inteiro N (0 ≤ N ≤ 100) que indica o número de estudantes na turma. A segunda linha conterá N nomes de estudantes com até 50 caracteres cada nome, separados por um único espaço. Todos os nomes irão conter somente letras maiúsculas e minúsculas (‘A’-‘Z’,‘a’-‘z’). A terceira linha conterá N registros de frequência, correspondentes aos respectivos estudantes da linha anterior. Os registros virão separados por um único espaço, e contêm apenas os caracteres ‘A’, ‘P’ e ‘M’. Um ‘P’ indica que o estudante estava presente à aula, ‘A’ indica que ele estava ausente (ele cabulou à aula) e ‘M’ mostra que, apesar de não ir à aula, ele entregou um atestado médico, então esta aula não deverá ser considerada no cálculo da frequência do estudante. Registros de frequência conterão ao menos um caracter ‘A’ ou ‘P’."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "1024",
+        "saida": "Para cada entrada, deve-se apresentar a mensagem criptografada.",
+        "descricao": "Solicitaram para que você construisse um programa simples de criptografia. Este programa deve possibilitar enviar mensagens codificadas sem que alguém consiga lê-las. O processo é muito simples. São feitas três passadas em todo o texto. Na primeira passada, somente caracteres que sejam letras minúsculas e maiúsculas devem ser deslocadas 3 posições para a direita, segundo a tabela ASCII: letra 'a' deve virar letra 'd', letra 'y' deve virar caractere '|' e assim sucessivamente. Na segunda passada, a linha deverá ser invertida. Na terceira e última passada, todo e qualquer caractere a partir da metade em diante (truncada) devem ser deslocados uma posição para a esquerda na tabela ASCII. Neste caso, 'b' vira 'a' e 'a' vira '`'. Por exemplo, se a entrada for “Texto #3”, o primeiro processamento sobre esta entrada deverá produzir “Wh{wr #3”. O resultado do segundo processamento inverte os caracteres e produz “3# rw{hW”. Por último, com o deslocamento dos caracteres da metade em diante, o resultado final deve ser “3# rvzgV”.",
+        "titulo": "Criptografia",
+        "entrada": "A entrada contém vários casos de teste. A primeira linha de cada caso de teste contém um inteiro N (1 ≤ N ≤ 1*104), indicando a quantidade de linhas que o problema deve tratar. As N linhas contém cada uma delas M (1 ≤ M ≤ 1*103) caracteres."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "2025",
+        "saida": "Seu programa deve corrigir o estrago causado pelo vírus Amli.D, imprimindo cada uma das linhas de entrada com a grafia correta da palavra \"Joulupukki\", sempre com a primeira letra maiúscula.",
+        "descricao": "A Lapônia, na Finlândia, é região mais a norte da União Europeia e o seu habitante mais famoso é naturalmente o Papai Noel, ou Pai Natal, ou Joulupukki (seu nome em Finlandês). Naturalmente nos dias de hoje o Papai Noel recebe, além das tradicionais cartinhas, muitos e-mails de crianças de todo o mundo. O problema é que Noel pegou um virus denominado Amli.D em seu computador e todas as mensagens que ele deixou como rascunho tiveram o nome dele alterado. O lado bom é que este virus bagunça apenas o nome dele (Joulupukki) trocando por vezes o primeiro caractere, por vezes o último e não raro os dois. Assim, ao invés de \"Joulupukki\", o nome pode aparecer como \"Joulupukka\", \"SoulupukkA\" ou \"Toulupukki\", entre outras formas. Assim, sua tarefa aqui será fazer um software que corrija todas as aparições erradas de \"Joulupukki\" dos rascunhos dos e-mails de Papai Noel. Temos a garantia dos gnomos de que não há nenhuma palavra com mais de 10 caracteres que contenha a substring \"oulupukk\", mas seja cuidadoso com relação ao ponto final, como \"Toulupukki.\", por exemplo. Neste caso teremos que considerar 11 caracteres.",
+        "titulo": "Joulupukki",
+        "entrada": "A entrada contém milhares de linhas de texto. A primeira linha de entrada contém um inteiro N (1 < N < 10000) que indica a quantidade de linhas de texto dos rascunhos de Noel. Cada uma das N linhas pode conter até 100 caracteres, incluindo letras maiúsculas, minúsculas e espaços em branco."
+    },
+    {
+        "nivel": "3",
+        "assunto": "3",
+        "numero": "1237",
+        "saida": "O tamanho da maior subsequência comum entre as duas Strings.",
+        "descricao": "Encontre a maior substring comum entre as duas strings informadas. A substring pode ser qualquer parte da string, inclusive ela toda. Se não houver subseqüência comum, a saída deve ser “0”. A comparação é case sensitive ('x' != 'X').",
+        "titulo": "Comparação de Substring",
+        "entrada": "A entrada contém vários casos de teste. Cada caso de teste é composto por duas linhas, cada uma contendo uma string. Ambas strings de entrada contém entre 1 e 50 caracteres ('A'-'Z','a'-'z' ou espaço ' '), inclusive, ou no mínimo uma letra ('A'-'Z','a'-'z')."
+    },
+    {
+        "nivel": "",
+        "assunto": "",
+        "numero": "1341",
+        "saida": "Para cada caso, imprima o número do caso de teste e dois inteiros XA e XB, indicando o número de caracteres removidos de SA e SB, respectivamente. Formate a saída como apresentado no exemplo de saída. Nota: No primeiro exemplo, SA = ABCDG e SB = ADEB. Se removermos 3 caracteres de SA e 2 caracteres de SB, podemos obter SA = SB = AB (SA = SB = AD também é possível).",
+        "descricao": "Duas crianças estão caminhando em uma grade com H linhas e W colunas. Cada quadrado da grade contém um caractere (cujo código ASCII está entre 33 e 127). Ambas as crianças podem se mover ao norte, a leste, a oeste ou ao sul a cada passo. A primeira criança já deu N passos, enquanto a segunda já deu M passos (0 ≤ N ≤ M ≤ 500). Se escrevermos todos os caracteres nos quais cada criança andou em sequência, obtemos duas strings SA e SB. Sua tarefa é remover o menor número possível de caracteres dessas strings de tal forma que elas se tornem iguais.",
+        "titulo": "Crianças em uma Grade",
+        "entrada": "A primeira linha da entrada contém um inteiro t (1 ≤ t ≤ 1000), o número de casos de teste. Cada caso de teste é descrito por várias linhas. A primeira linha contém dois inteiros H e W (1 ≤ H, W ≤ 20). As próximas H linhas descrevem a grade. A linha seguinte contém três inteiros N, X0 e Y0 (1 ≤ X0 ≤ H, 1 ≤ Y0 ≤ W), indicando que a primeira criança deu N passos, começando no quadrado de coordenadas (X0, Y0). A coordenada X cresce de norte a sul, enquanto a coordenada Y cresce de oeste a leste. A próxima linha contém uma string de tamanho N contendo os caracteres 'N' (norte), 'E' (leste), 'W' (oeste) ou 'S' (sul), indicando o caminho percorrido pela primeira criança. Seguem-se então as informações da segunda criança, no mesmo formato. Você pode assumir que as sequências de passos são sempre corretas, isto é, nenhuma criança irá sair da grade."
+    },
+    {
+        "nivel": "",
+        "assunto": "",
+        "numero": "1305",
+        "saida": "Para cada caso de teste da entrada seu programa deve gerar uma linha de saída somente com a parte inteira de num arredondada de acordo com o valor de corte em cutoff.",
+        "descricao": "Frequentemente, ao arredondar um número real para um inteiro nós o fazemos para cima se a parte fracionária é maior ou igual a 0,5 e para baixo se a parte fracionária é menor do que 0,5. Neste problema você recebe uma string num contendo um número real e uma string cutoff contendo um valor de corte. A string cutoff será formatada exatamente como \"0.####\", onde cada '#' representa um dígito ('0'-'9'). Pelo menos um dos dígitos da parte fracionária de cutoff será diferente de zero. Sua tarefa é arredondar num para cima se a parte fracionária é maior do que o valor de corte e para baixo caso contrário, devolvendo o resultado como um inteiro. Para evitar problemas com imprecisão de representação em ponto flutuante a parte fracionária de num não será exatamente igual a cutoff. Assim, o método tradicional de arredondamento descrito na frase inicial seria representado por cutoff = \"0.5000\"",
+        "titulo": "Arredondamento por Valor de Corte",
+        "entrada": "A entrada contem vários casos de teste. Cada caso de teste é composto por duas linhas. A string num está na primeira linha e a string cutoff fica na segunda linha. A string num é formada por 1 ou mais dígitos ('0' a '9') com um ponto decimal opcional ('.'). A string num tem de 1 a 10 caracteres. A string cutoff é formatada exatamente como \"0.####\", onde cada '#' representa um dígito ('0' a '9'). Além disso, a parte fracionária de num NÃO será exatamente igual a cutoff. O final da entrada é determinado por EOF."
+    },
+    {
+        "nivel": "",
+        "assunto": "",
+        "numero": "1386",
+        "saida": "Para cada teste a saída será de uma única linha, com o comprimento da mais curta mensagem ambígua para o código fornecido ou -1 se o código é inequívoco.",
+        "descricao": "Uma extensa área de pesquisa em ciência da computação é o campo das comunicações. Como as redes de computador fazem parte do cotidiano de muitas pessoas, o desenvolvimento de formas para fazer estas redes mais rápidas, mais confiáveis ​​e seguras é constantemente necessário. Esta necessidade prática motiva uma atividade de pesquisa extensa na teoria por trás das comunicações. A primeira coisa necessária para estabelecer qualquer tipo de comunicação é um código comum. Um código é uma maneira de alterar a forma de uma peça de informação em alguma outra forma, de um modo geral, fazer possível transmitir esse pedaço de informação de um lugar para outro. Códigos de bandeira usados por barcos e o código Morse utilizados na telegrafia são exemplos de códigos para traduzir as letras em diferentes formas para permitir a comunicação através de diferentes meios de comunicação. Mais formalmente, um código é um conjunto de strings composto de símbolos de um alfabeto. Cada string definida no código é chamado de uma palavra. A mensagem é então composta de um conjunto concatenado de palavras de código para transmitir a informação necessária. Por exemplo, no código Morse o alfabeto é composto de símbolos hífen e ponto; letra \"S\" é representada pela palavra de código \"...\" letra \"O\" é representada pela palavra de código \"---\", e, portanto, a mensagem de socorro \"SOS\" em código Morse é \"... --- ...\". Códigos para a comunicação podem ter muitas propriedades desejáveis ​​e indesejáveis, tais como a ambigüidade, entropia, redundância, e muitos mais. Neste problema, vamos nos concentrar na ambigüidade como uma propriedade chave. Um código é ambíguo quando existe uma mensagem usando esse código, que pode ser dividida em diferentes sequências de palavras de código. Em outras palavras, um código ambíguo pode ter em uma mensagem mais de um significado. Por exemplo, considere o alfabeto binário, composto de símbolos {0,1}. Para o código das palavras composto {10, 01, 101} na mensagem 10101 pode ser entendida como 10-101 ou 101-01 e, portanto, o código é ambíguo. Por outro lado, para o código composto das palavras {01, 10, 011} existe nenhuma mensagem ambígua e, por tanto, o código é inequívoco. Como parte da comunidade de ciência da computação, você é obrigado a desenvolver um testador que verifica se os códigos são ambíguos. No caso de um código ser de fato ambíguo, você também deverá comunicar o comprimento (isto é, o número de símbolos) da mensagem ambígua mais curto para o código.",
+        "titulo": "Códigos Ambíguos",
+        "entrada": "Cada caso de teste consistirá em diversas linhas. Em todos os casos, o teste será o alfabeto conjunto de dígitos hexadecimais (dígitos decimais mais as letras maiúsculas \"A\" a \"F\"). A primeira linha de um caso de teste conterá um número inteiro N (1 ≤ N ≤ 100) e o número de palavras de código no código. Cada uma das próximas N linhas descrevem uma palavra de código e contém uma seqüência diferente não-vazio de pelo menos 50 dígitos hexadecimais. A entrada é terminada por N = 0."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "1263",
+        "saida": "Para cada caso de teste imprima o número de aliterações existentes no texto informado, conforme exemplos abaixo.",
+        "descricao": "Uma aliteração ocorre quando duas ou mais palavras consecutivas de um texto possuem a mesma letra inicial (ignorando maiúsculas e minúsculas). Sua tarefa é desenvolver um programa que identifique, a partir de uma sequência de palavras, o número de aliterações que essa sequência possui.",
+        "titulo": "Aliteração",
+        "entrada": "A entrada contém diversos casos de testes. Cada caso é expresso como um texto em uma única linha, contendo de 1 a 100 palavras separadas por um único espaço, cada palavra tendo de 1 a 50 letras minúsculas ou maiúsculas ('A'-'Z','a'-'z'). A entrada termina em EOF."
+    },
+    {
+        "nivel": "1",
+        "assunto": "3",
+        "numero": "1873",
+        "saida": "Para cada caso de teste, imprima quem venceu, ou se houve empate.",
+        "descricao": "Pedra-papel-tesoura-lagarto-Spock é uma expansão do clássico método de seleção em jogo de pedra-papel-tesoura. Atua sob o mesmo princípio básico, mas inclui outras duas armas adicionais: o lagarto (formado pela mão igual a uma boca de fantoche) e Spock (formada pela saudação dos vulcanos em Star Trek). Isso reduz as chances de uma rodada terminar em um empate. O jogo foi inventado por Sam Kass e Karen Bryla, como \"Rock Paper Scissors Lizard Spock\". As regras de vantagem são as seguintes: Tesoura corta papel Papel cobre pedra Pedra derruba lagarto Lagarto adormece Spock Spock derrete tesoura Tesoura prende lagarto Lagarto come papel Papel refuta Spock Spock vaporiza pedra Pedra quebra tesoura Um dia, dois amigos, Rajesh e Sheldon, decidiram apostar quem pagaria um almoço para o outro, com esta brincadeira. Sua missão será fazer um algoritmo que, baseado no que eles escolherem, informe quem irá ganhar ou se dará empate.",
+        "titulo": "Pedra-papel-tesoura-lagarto-Spock",
+        "entrada": "Haverá diversos casos de teste. O primeiro número a ser lido será um inteiro C, representando a quantidade de casos de teste. Cada caso de teste tem duas palavras, representando a escolha de Rajesh e de Sheldon, respectivamente."
+    },
+    {
+        "nivel": "",
+        "assunto": "",
+        "numero": "1284",
+        "saida": "Para cada caso de teste de entrada imprima um número com duas casas decimais (arredondado caso necessário) que representa o número médio de pressionamentos de tecla necessários para digitar uma palavra no dicionário.",
+        "descricao": "Uma equipe de pesquisadores está desenvolvendo uma nova tecnologia para economizar tempo ao digitar mensagens de texto em dispositivos móveis. Eles estão trabalhando em um novo modelo que tem um teclado completo, assim os usuários podem digitar qualquer letra pressionando a tecla correspondente. Desta forma, um usuário precisa pressionar P teclas para digitar uma palavra de comprimento P. No entanto, isto não é suficientemente rápido. A equipe vai montar um dicionário de palavras comuns que um usuário pode digitar. O objetivo é reduzir o número médio de teclas pressionadas necessárias para digitar palavras que constam no dicionário. Durante a digitação de uma palavra, sempre que houver apenas uma possibilidade para a seguinte letra, o sistema de telefone celular irá introduzí-la automaticamente, sem a necessidade de digitação. Para ser mais preciso, o comportamento do sistema de telefone celular irá ser determinado pelas seguintes regras: 1. O sistema nunca irá adivinhar a primeira letra de uma palavra, ou seja, para a primeira letra sempre terá que ser pressionada a tecla correspondente. 2. Se uma sucessão não-vazia de letras c1c2...cn for introduzida, e houver uma letra c tal que cada palavra no dicionário que começa com c1c2...cn também começa com c1c2 ... cnc, em seguida, o sistema coloca a entrada c automaticamente, sem a necessidade de uma combinação de teclas. Caso contrário, o sistema aguarda o usuário. Por exemplo, se o dicionário é composto das palavras \"hello\", \"hell\", \"heaven\" e \"goodbye\", e o usuário pressiona \"h\", o sistema colocará a letra \"e\" automaticamente, porque cada palavra que começa com \"h\" também começa com \"he\". No entanto, uma vez que existem palavras que começam com \"hel\" e com \"hea\", o sistema precisa agora esperar a próxima digitação do usuário. Se o usuário pressionar então o \"l\", obtendo-se a palavra parcial \"hel\", o sistema de entrada incluirá um segundo \"l\" automaticamente. Quando se tem o \"hell\" como entrada, o sistema não pode supor nada, porque é possível que a palavra terminou, ou também é possível que o usuário pode querer pressionar \"o\" para obter \"hello\". Desta forma, para digitar a palavra \"hello\" o usuário precisa de três teclas, \"hell\" exige duas e \"heaven\" também requer duas, porque quando a entrada é \"hea\" o sistema pode colocar automaticamente o restante da palavra aplicando repetidamente a segunda regra. Da mesma forma, a palavra \"goodbye\" precisa de apenas uma tecla, porque depois de pressionar a inicial \"g\", a sistema irá preencher automaticamente a palavra inteira. Neste exemplo, o número médio de teclas necessário digitar uma palavra no dicionário é, então, (3 + 2 + 2 + 1) / 4 = 2.00. Dado um determinado dicionário, sua tarefa então é calcular o número médio de teclas necessárias para escrever uma palavra no dicionário com o novo sistema para celular desenvolvido pelos pesquisadores.",
+        "titulo": "Digitando no Telefone Celular",
+        "entrada": "Cada caso de teste é descrito por várias linhas. A primeira linha contém um número inteiro N representando o número de palavras no dicionário (1 ≤ N ≤ 105 ). Cada uma das próximas N linhas contém uma string não-vazia de no máximo 80 letras minúsculas do alfabeto inglês, representando uma palavra no dicionário. Dentro de cada caso de teste todas as palavras são diferentes, e a soma dos comprimentos de todas as palavras é, no máximo, 106."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "1234",
+        "saida": "Transforme a sentença de entrada em uma sentença dançante (conforme o exemplo abaixo) trocando as letras para minúscula ou maiúscula onde for necessário. Todos os espaços da sentença original deverão ser preservados, ou seja, \" sentence \" deverá ser convertido para \" SeNtEnCe \".",
+        "descricao": "Uma sentença é chamada de dançante se sua primeira letra for maiúscula e cada letra subsequente for o oposto da letra anterior. Espaços devem ser ignorados ao determinar o case (minúsculo/maiúsculo) de uma letra. Por exemplo, \"A b Cd\" é uma sentença dançante porque a primeira letra ('A') é maiúscula, a próxima letra ('b') é minúscula, a próxima letra ('C') é maiúscula, e a próxima letra ('d') é minúscula.",
+        "titulo": "Sentença Dançante",
+        "entrada": "A entrada contém vários casos de teste. Cada caso de teste é composto por uma linha que contém uma sentença, que é uma string que contém entre 1 e 50 caracteres ('A'-'Z','a'-'z' ou espaço ' '), inclusive, ou no mínimo uma letra ('A'-'Z','a'-'z')."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "1255",
+        "saida": "Para cada caso de teste, imprima uma linha contendo a(s) letra(s) que mais ocorreu(ocorreram) no texto em minúsculas (se houver empate, imprima as letras em ordem alfabética).",
+        "descricao": "Neste problema estamos interessados na frequência das letras em uma dada linha de texto. Especificamente, deseja-se saber qual(is) a(s) letra(s) de maior frequência do texto, ignorando o “case sensitive”, ou seja maiúsculas ou minúsculas (sendo mais claro, “letras” referem-se precisamente às 26 letras do alfabeto).",
+        "titulo": "Frequência de Letras",
+        "entrada": "A entrada contém vários casos de teste. A primeira linha contém um inteiro N que indica a quantidade de casos de teste. Cada caso de teste consiste de uma única linha de texto. A linha pode conter caracteres “não letras”, mas é garantido que tenha ao menos uma letra e que tenha no máximo 200 caracteres no total."
+    },
+    {
+        "nivel": "9",
+        "assunto": "3",
+        "numero": "1141",
+        "saida": "Para cada caso de teste, imprima uma única linha com um único inteiro representando o tamanho da maior sequência de fotos que pode ser produzida.",
+        "descricao": "Gene e Gina possuem um tipo peculiar de fazenda. Ao invés de criar animais e plantar vegetais como acontece em fazendas normais, eles cultivam strings. Uma string é uma sequência de caracteres. As strings, ao crescerem, adicionam caracteres à esquerda e/ou à direita delas mesmas, mas nunca perdem caracteres nem inserem caracteres no meio. Gene e Gina possuem uma coleção de fotos de algumas strings durante diferentes etapas de seus crescimentos. O problema é que a coleção não é rotulada, portanto eles esqueceram a qual string pertence cada uma das fotos. Eles querem montar um painel para ilustrar os procedimentos do cultivo de strings, mas eles necessitam sua ajuda para encontrar uma sequência de fotos apropriada. Cada foto ilustra uma string. A sequência de fotos precisa ter a seguinte propriedade: se si aparece imediatamente antes de si+1 na sequência, então si+1 é uma string que pode ter crescido a partir de si (ou seja, si é uma substring contígua de si+1). Além disso, eles não querem usar fotos repetidas, portanto todas as strings na sequência devem ser diferentes. Dado um conjunto de strings representando todas as fotos disponíveis, sua tarefa é calcular o tamanho da maior sequência que pode ser produzida com as restrições acima.",
+        "titulo": "Cultivando Strings",
+        "entrada": "Cada caso de teste se estende por várias linhas. A primeira linha contém um inteiro N representando o número de strings no conjunto (1 ≤ N ≤ 104). Cada uma das próximas N linhas contém uma string não-vazia e única com no máximo 1000 caracteres minúsculos do alfabeto inglês. Em cada caso de teste, a soma dos tamanhos das strings é no máximo 106. O último caso de teste é seguido de uma linha contendo um zero."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "2153",
+        "saida": "Para cada caso de teste, imprima a palavra devidamente corrigida. Observe os exemplos para verificar o padrão, de modo a corrigir devidamente todos os casos.",
+        "descricao": "A nutricionista Root Escrevemos é uma excelente profissional de sua área. Certo dia, ela foi entrevistada ao vivo para um jornal local. No entanto, ela ficou um pouco nervosa na hora, e numa situação destas, a fala dela se distorce um pouco, repetindo o final de cada palavra após dizer a mesma. Para se prevenir de um desconforto futuro, ela pede sua ajuda para escrever um programa que omita a parte repetida, de modo que as palavras sejam emitidas como deveriam ser. Escreva um programa que, dada uma palavra errada, a mesma seja corrigida.",
+        "titulo": "Sanduicheiche",
+        "entrada": "Haverá diversos casos de teste. Cada caso de teste é formado por uma palavra, de, no máximo, 30 caracteres, dita da forma errada. A entrada termina com fim de arquivo."
+    },
+    {
+        "nivel": "6",
+        "assunto": "3",
+        "numero": "2000",
+        "saida": "Para cada caso teste imprima uma linha com \"s\" (sem aspas) se as duas strings tem a mesma quantidade de substrings distintas e \"n\" caso contrário.",
+        "descricao": "Adeildo faz odontologia, mas sua verdadeira paixão é por strings. Ele tem várias strings favoritas. Em uma de suas disciplinas ele conheceu um colega que também é fã de strings, e que também tem suas strings favoritas. Ele gostaria de saber se as strings tem algo em comum. Ele pediu que você descubra se duas strings possuem a mesma quantidade de substrings distintas.",
+        "titulo": "Adeildo da Odonto",
+        "entrada": "A primeira linha da entrada contém um inteiro T, representando a quantidade de casos teste. Cada caso teste consiste de duas linhas. Cada uma das duas linhas contém uma string não-vazias de tamanho até 100000, contendo apenas letras do alfabeto minusculas."
+    },
+    {
+        "nivel": "6",
+        "assunto": "3",
+        "numero": "1726",
+        "saida": "Como saída, mostre o conjunto de resultados entre chaves ‘{’ e ‘}’, cada um em uma linha. Imprima os elementos de cada conjunto em ordem alfabética.",
+        "descricao": "Você quer planejar uma grande festa de aniversário com seus amigos. Durante o planejamento você percebeu que você deve fazer inúmeros operações com conjuntos de amigos. Existe um grupo que consiste do Arthur, Biene e Clemens. Existe outro grupo de amigos que você conhece do snowboarding que consiste do Daniel, Ernst, Frida e Gustav. Se você quer convidar ambos, o resultado do grupo da festa consiste de g1 + g2 (o resultado é a união de ambos os grupos). Então você pode computar a intersecção dos dois grupos g1 * g2, que consiste no conjunto vazio. Talvez você queira convidar o grupo g1, mas excluindo todos os membros do outro grupo g2, que pode ser escrito como g1 – g2. Intersecção (*) precede sobre união (+) e diferença (-). Todas as operações são associadas a esquerda, o que significa que em A op1 B op2 C você primeiro deve avaliar A op1 B (desde que op1 e op2 possuam uma precedência igual).",
+        "titulo": "Amigos",
+        "entrada": "A entrada consiste de uma ou mais linhas. Cada linha contém uma expressão que você deve avaliar. Expressões são sintaticamente corretas e somente consistem dos seguintes caracteres: '{' e '}' Os elementos 'A' à 'Z' significando amigos de Arthur até Zora. Operações '+', '-' e '*' '(' e ')' para agrupar operações Caracter de nova linha '\\n' marcando o fim de uma expressão. Uma linha nunca é maior que 255 caracteres."
+    },
+    {
+        "nivel": "",
+        "assunto": "",
+        "numero": "1377",
+        "saida": "Para cada caso de teste, seu programa deverá retornar uma linha com um inteiro, representando o número de diferentes subsequências contíguas que aparecem pelo menos duas vezes na seqüência de entrada.",
+        "descricao": "Sua escola tem um computador que é usado como um servidor web para hospedar seu site institucional, páginas pessoais dos funcionários, sites para grupos de pesquisa, assuntos, e muitos outros. Recentemente, a tabela do disco rígido foi corrompida, por isso a organização de todos os arquivos foi perdida. Infelizmente, não há backups dessas informações. A única esperança é olhar através de todo o disco de dados e tentar descobrir quais partes correspondem a cada arquivo. Felizmente, o disco foi usando um sistema de arquivos que manteve cada arquivo contíguo, apenas as partes contíguas de dados precisam ser inspecionadas. Os dados do disco é uma seqüência de bytes. Cada byte neste disco em particular pode armazenar uma letra do alfabeto Inglês (maiúsculas e minúsculas distintas), um dígito decimal, um ponto ou uma vírgula, totalizando 64 caracteres diferentes. Enquanto você estava pensando em como resolver o problema, você de repente se lembrou de que o sistema de arquivos também manteve várias cópias de cada arquivo, portanto, apenas os pedaços de bytes contíguos que se repetem tem a chance de ser um arquivo. Além disso, para cada repetição dos mesmos bytes contíguos, apenas uma cópia precisa ser verificada. Por exemplo, se os dados forem 'ababcabb', as subsequências repetidos contíguas são 'a', 'b' e 'ab', mas nada que contenha 'c', nem 'ba' ou 'Bb' é. Portanto, temos 3 pedaços de bytes contíguos que precisam de verificação neste caso. Você precisa escrever um programa que calcule exatamente quantas sequências precisam de verificação, isto é o número de sequências diferentes de bytes contíguos que aparecem em pelo menos duas vezes nos dados.",
+        "titulo": "Recuperador de Arquivos",
+        "entrada": "Há diversos casos de teste. A entrada de cada caso de teste é dada em exatamente uma linha, contendo uma string não-vazia de no máximo 105 caracteres que representa os dados do disco. Cada caractere da string poderá ser uma letra minúscula, uma letra maiúscula, um dígito, um ponto ou uma vírgula. O último caso de teste é seguido por uma linha contendo um único asterisco."
+    },
+    {
+        "nivel": "4",
+        "assunto": "3",
+        "numero": "2087",
+        "saida": "Para cada caso de teste, você deverá imprimir Conjunto Bom, ou Conjunto Ruim, conforme explicado acima.",
+        "descricao": "Nesse problema você deverá descobrir se um conjunto de diversas palavras é bom ou ruim. Por definição, um conjunto é bom quando nenhuma palavra desse conjunto é um prefixo de uma outra palavra. Caso contrário, este é considerado um conjunto ruim. Por exemplo, {abc, dae, abcde} é um conjunto ruim, pois abc é um prefixo de abcde. Quando duas palavras são iguais, definimos como uma sendo prefixo da outra.",
+        "titulo": "Conjuntos Bons e Ruins",
+        "entrada": "A entrada contém vários casos de teste. A primeira linha de cada caso de teste terá um inteiro N (1 ≤ N ≤ 10⁵), representando a quantidade de palavras no conjunto. Segue então N linhas, cada uma tendo uma palavra de no máximo 100 letras minúsculas. A entrada termina quando N = 0 e não deve ser processada."
+    },
+    {
+        "nivel": "5",
+        "assunto": "3",
+        "numero": "1846",
+        "saida": "O nome do número, por extenso, sem vírgulas (para facilitar). Preste atenção ao \"e\" conectivo. Veja o exemplo de saída.",
+        "descricao": "A tarefa para este problema é simples: dada uma lista de números, escreva o nome de cada um por extenso.",
+        "titulo": "Numero Para Nome",
+        "entrada": "A entrada consiste de uma lista de números, de tamanho desconhecido (cerca de 100000 números). Haverá um único número inteiro n (0 ≤ n < 106) em cada linha."
+    },
+    {
+        "nivel": "3",
+        "assunto": "3",
+        "numero": "2055",
+        "saida": "Para cada instância seu programa deve imprimir uma linha contendo Instancia k, onde k é o número da k-ésima instância. Para cada número de telefone processado seu programa deve imprimir todas as codificaçõs possíveis em ordem lexicográfica (a ordem da tabela ASCII) crescente. Cada codificação deve ser impressa no seguinte formato: o número do telefone seguido de dois pontos (:), um espaço e a codificação. Uma linha em branco deve ser impressa entre dois casos de teste.",
+        "descricao": "Acredite ou não, esse foi o resultado de um estudo conduzido por Ron Garret (Erann Gat) no início do século. A motivação de Garret foi um outro estudo, feito por Lutz Prechelt e publicado na Communications of the ACM, que comparava a performance de tempo de execução e uso de memória de programas escritos em C, C++ e Java. Porém, diferentemete dos benchmarks tradicionais, Prechelt comparou diferentes implementações de uma mesma tarefa feita por 38 desenvolvedores diferentes (em experiência e conhecimento). O estudo de Prechelt mostrou que Java é de 3 a 4 vezes mais lento que C ou C++, porém a variação maior ocorreu entre os programadores, não entre as linguagens, sugerindo que é melhor gastar mais tempo treinando os desenvolvedores do que discutindo que linguagem deve ser escolhida. Anos depois Garret estendeu esse estudo adicionando Lisp como uma das implementações possíveis para o problema, e dessa vez, além de considerar todos os fatores de comparação de Prechelt, acrescentou o tempo de desenvolvimento como métrica. Os resultados de Garret foram surpreendentes: Lisp ganhou disparado em todos os quesitos, necessitando de menos tempo e linhas de código, consumindo menos memória e executando mais rápido que os programas feitos em C, C++ ou Java. Ficou provado que os programadores de Lisp são muito melhores que os outros programadores. Essa é a sua chance de mostrar que o estudo de Garret está errado. Como? Resolvendo o mesmo problema proposto, em menos tempo e com implementações mais rápidas. O problema que foi a base de ambos os estudos é o seguinte: Considere o seguinte mapeamento entre letras e dígitos: Queremos usar esse mapeamento para codificar números de telefone em palavras de forma que seja fácil decorá-los. Sua tarefa é escrever um programa que ache, dado um número de telefone, todas as possíveis codificações do mesmo em palavras. Um número de telefone é uma string arbitrária contendo apenas hífen (-), barras (/) e dígitos. As barras e hífen não devem ser codificados. As palavras são tiradas de um dicionário informado em ordem alfabética. Você deve imprimir apenas as palavras que codifiquem completamente o número de telefone. As palavras no dicionário podem ter letras maiúsculas e mínusculas, hífen (-) e aspas (\"), porém você deve usar apenas as letras para codificar um número. A palavra deve ser impressa como foi dada no dicionário. A codificação de um número de telefone pode consistir de uma ou mais palavras, separadas por espaço. A codificação é construída palavra por palavra, da esquerda para a direita. Se, em um dado ponto da codificação nenhuma palavra do dicionário pode ser inserida, então um único dígito de telefone pode ser usado para a codificação, porém dois números consecutivos não são permitidos numa codificação válida. Em outras palavras: em uma codificação parcial que cobre k dígitos, o dígito k+1 é codificado por ele mesmo se e somente se, primeiro, o dígito k não foi codificado por um dígito e, segundo, não existe palavra no dicionário que pode ser usada na codificação começando no dígito k+1.",
+        "titulo": "Lisp é Melhor que Java, C e C++",
+        "entrada": "Cada instância é composta por uma linha contendo um número inteiro 0 < n ≤ 75000, o número de palavras no dicionário. AS próximas n linhas contêm palavras com no máximo 50 caracteres. Depois do dicionário segue um inteiro 1 < t < 100000, e nas t linhas seguintes os números de telefone a serem codificados. QUando n for 0 seu programa deve parar."
+    },
+    {
+        "nivel": "4",
+        "assunto": "3",
+        "numero": "1941",
+        "saida": "Seu programa deve imprimir um único inteiro, representando o tamanho do maior palíndromo possível, como definido acima.",
+        "descricao": "Um palíndromo é uma cadeia de caracteres tal que sua reversão é igual à cadeia original. Em outras palavras, é uma cadeia que, quando lida de trás pra frente, é igual à cadeia original. Por exemplo BANANAB é um palíndromo, enquanto BANANAS não. Neste problema estamos interessados em uma questão um pouco mais interessante. Dada uma cadeia S, queremos encontrar uma subsequência que seja um palíndromo. Uma subsequência é uma cadeia que pode ser obtida a partir da remoção de zero ou mais caracteres da cadeia original. Por exemplo ANNA é uma subsequência de BANANAS. Será dado também um conjunto de posições de S que chamamos de posições especiais. Sua tarefa é encontrar o tamanho da subsequência que seja um palíndromo e que contenha o maior número de posições especiais possível. Caso exista mais de uma subsequência maximizando o número de posições especiais, você deve imprimir o tamanho da maior delas.",
+        "titulo": "Palíndromo",
+        "entrada": "A entrada consiste de duas linhas. A primeira linha contém uma cadeia de caracteres maiúsculos S com pelo menos 1 e no máximo 2000 caracteres. A segunda linha contém um inteiro N, (0 ≤ N ≤ |S|), indicando o número de posições especiais que estamos interessados em incluir no palíndromo, seguido de N números distintos, entre 1 e |S|, inclusive, contendo as posições especiais de S."
+    },
+    {
+        "nivel": "",
+        "assunto": "",
+        "numero": "1556",
+        "saida": "Para cada teste, a saída consiste de várias linhas, contendo todas as sequências que podem ser formadas por Pedro durante o jogo. É garantido para todas as entradas que não haverá mais de 1000 sequências possíveis de ser formadas. Imprima uma linha em branco após cada caso de teste.",
+        "descricao": "João desafiou Pedro em um jogo envolvendo sequências de letras. No início, é mostrado aos jogadores uma sequência de letras. Cada jogador deve tentar usar essa sequência para formar outras sequências. Para isso, é permitido remover algumas letras da sequência, sem alterar a ordem. O jogador que conseguir formar mais sequências ganha o jogo. Pedro gostaria de sua ajuda para ganha de João. Sua tarefa é mostrar para Pedro todas as sequências distintas, em ordem alfabética, que ele pode formar durante o jogo.",
+        "titulo": "Removendo Letras",
+        "entrada": "A entrada contém vários casos de teste. Cada caso de teste consiste de uma linha contendo uma sequência a ser usada no jogo. A sequência é formada apenas por caracteres minúculos e pode possuir até 1000 caracteres."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "1586",
+        "saida": "Imprima o nome do estudante que, se sorteado, faria as equipes A e B empatarem. Se não há tal estudante, imprima a linha: “Impossibilidade de empate.” (sem as aspas).",
+        "descricao": "Na Final Nacional da Maratona de Programação de 2013, em Uberlândia, durante um período de lazer, o Prof. Carlinhos (USP) propôs uma atividade a todos os estudantes. Ele primeiro organizou os estudantes em ordem lexicográfica crescente, considerando apenas o primeiro nome e desconsiderando diacríticos. Em seguida, sorteou um estudante e montou duas equipes, A e B: a equipe A seria formada por todos os estudantes na ordem até o estudante sorteado, inclusive; a equipe B seria formada por todos os estudantes na ordem a partir do estudante sorteado, exclusive. As duas equipes, então, competiriam num cabo de guerra tradicional, e os vencedores ganhariam um café. Muitas coisas curiosas o Prof. Carlinhos percebeu naquele dia: A força de cada estudante, quando posicionado imediatamente em frente ao adversário (posição 1), era exatamente igual à soma dos valores correspondentes aos caracteres de seu primeiro nome na tabela ASCII. Dessarte, a força do estudante Leandro, se ficasse na posição 1 de uma equipe (fosse A ou fosse B), serial igual a: 709 = 76 + 101 + 97 + 110 + 100 + 114 + 111 = ‘L’ + ‘e’ + ‘a’ + ‘n’ + ‘d’ + ‘r’ + ‘o’ Quanto mais distante da equipe adversária, menos intimidado — e, portanto, mais forte — ficava um estudante. Mais especificamente, um estudante na posição 2 de uma equipe tinha o dobro da força que teria se ficasse na posição 1. Na posição 3, o triplo, e assim por diante. As posições de ambas as equipes são numeradas a partir da posição mais próxima da equipe adversária, começando a contagem em 1. Por exemplo, se o estudante Leandro ficasse na posição 3 de uma equipe, teria força igual a 3 × 709 = 2127. A força de uma equipe era igual à soma das forças de cada um de seus integrantes. Não obstante, se a força da equipe A fosse maior que a da equipe B, a equipe A certamente ganharia. Por outro lado, se a força da equipe A fosse menor que a da equipe B, a equipe B certamente ganharia. Finalmente, se as forças de ambas as equipes fossem iguais, haveria um empate. Existe algum estudante que o Prof. Carlinhos poderia sortear que fizesse as equipes A e B empatarem?",
+        "titulo": "Cabo de Guerra",
+        "entrada": "A entrada consiste de vários casos de teste. A primeira linha de cada caso de teste é composta por um único inteiro N (1 ≤ N ≤ 105), o qual representa o número de estudantes. Seguem, então, N linhas, cada uma contendo o primeiro nome de um estudante. Os nomes dos estudantes são fornecidos segundo a ordem lexicográfica crescente, e no mínimo 1 e no máximo 10 letras do alfabeto latino compõem o nome de um estudante. Não há num mesmo caso de teste dois estudantes com o mesmo primeiro nome, e a primeira letra de um nome é sempre maiúscula, sendo as demais minúsculas. N = 0 finaliza a entrada."
+    },
+    {
+        "nivel": "2",
+        "assunto": "3",
+        "numero": "1768",
+        "saida": "Para cada caso de teste de entrada, seu programa deverá desenhar uma árvore conforme especificação acima e exemplo abaixo, com uma linha em branco após cada árvore.",
+        "descricao": "As crianças adoram desenhar árvores de natal e você desafiou algumas delas a desenharem árvores de diversos tamanhos com apenas com o caractere asterisco \"*\". A regra é simples. De baixo para cima, o tronco da árvore consiste de 3 asteriscos e depois 1. Em seguida vem o restante da árvore, com cada fileira de folhas iniciando no tamanho que você determinou e diminuindo de dois em dois, até chegar na copa da árvore que terá apenas um asterisco. Note que para isso dar certo, somente será permitido tamanhos ímpares para estas árvores.",
+        "titulo": "Árvore de Natal",
+        "entrada": "A entrada contém vários casos de teste e termina com EOF. Cada caso de teste consiste em um inteiro N (2 < N < 100)."
+    }
+]

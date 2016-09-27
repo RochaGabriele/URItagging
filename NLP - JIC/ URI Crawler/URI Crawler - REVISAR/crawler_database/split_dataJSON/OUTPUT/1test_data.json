@@ -1,0 +1,623 @@
+[
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2061",
+        "saida": "A saída deve ser uma linha contendo o número final de abas.",
+        "descricao": "Péricles é um rapaz que tem um interesse único por história. Utilizando seu atualizadíssimo navegador de internet rapoza cromada, conheceu até os sitios mais remotos e obscuros atrás de informações sobre a mitologia grega. Por ironia do destino, o navegador de Péricles acabou sendo infectado por um malware com uma caracterísica peculiar: cada vez que Péricles fechava uma aba no seu navegador, outras duas abas apareciam! No entanto, quando Péricles clicou sem querer em uma das propagandas de uma aba, percebeu que, por um erro do navegador, a aba foi encerrada (sem abrir outras abas). Por causa do malware, todas as abas possuem irritantes propagandas. Sua tarefa é descobrir com quantas abas que o navegador de Péricles ficou, sabendo o número inicial de abas e a sequência de ações de Péricles. As ações podem ser fechou (quando Péricles fechou uma aba) ou clicou (quando Péricles clicou em uma propaganda).",
+        "titulo": "As Abas de Péricles",
+        "entrada": "A entrada é iniciada por uma linha contendo dois números inteiros positivos, N e M (0 < N, M < 500), representando o número inicial de abas e o número de ações de Péricles. Cada linha subsequente contém uma ação (fechou ou clicou). Naturalmente, o número de abas é sempre maior ou igual a zero."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1051",
+        "saida": "Imprima o texto \"R$\" seguido de um espaço e do valor total devido de Imposto de Renda, com duas casas após o ponto. Se o valor de entrada for menor ou igual a 2000, deverá ser impressa a mensagem \"Isento\".",
+        "descricao": "Em um país imaginário denominado Lisarb, todos os habitantes ficam felizes em pagar seus impostos, pois sabem que nele não existem políticos corruptos e os recursos arrecadados são utilizados em benefício da população, sem qualquer desvio. A moeda deste país é o Rombus, cujo símbolo é o R$. Leia um valor com duas casas decimais, equivalente ao salário de uma pessoa de Lisarb. Em seguida, calcule e mostre o valor que esta pessoa deve pagar de Imposto de Renda, segundo a tabela abaixo.   Lembre que, se o salário for R$ 3002.00, a taxa que incide é de 8% apenas sobre R$ 1000.00, pois a faixa de salário que fica de R$ 0.00 até R$ 2000.00 é isenta de Imposto de Renda. No exemplo fornecido (abaixo), a taxa é de 8% sobre R$ 1000.00 + 18% sobre R$ 2.00, o que resulta em R$ 80.36 no total. O valor deve ser impresso com duas casas decimais.",
+        "titulo": "Imposto de Renda",
+        "entrada": "A entrada contém apenas um valor de ponto flutuante, com duas casas decimais."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1004",
+        "saida": "Imprima a variável PROD conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.",
+        "descricao": "Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente.",
+        "titulo": "Produto Simples",
+        "entrada": "O arquivo de entrada contém 2 valores inteiros."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1963",
+        "saida": "A única linha da saída deve consistir unicamente de um valor, que represente como uma porcentagem o aumento do valor do ingresso. O valor deve ser acompanhado do símbolo % e conter exatos dois dígitos após o ponto separador decimal.",
+        "descricao": "Bem-vindo à 3ạ Maratona de Programação Júnior da UFFS. Esperamos sinceramente que as próximas horas sejam muito produtivas para você, que você faça muitos balões e que, acima de tudo, você se divirta! Lembre que você sempre pode pedir esclarecimento quando não entender direito a descrição de um problema. Lembre também que às 17:30 os juízes automáticos serão desligados e a competição entrará em modo blind, de modo que todas as submissões neste período só começarão a ser julgadas às 18:10. Por favor, fique conosco até o fim da competição, trabalhando nas soluções dos problemas até o último minuto, pois, enquanto a competição ainda está ocorrendo, sempre há esperança! E foi esperança que motivou a Vovó Zazá, uma senhora de 72 anos, a realizar seu sonho de começar um curso universitário. Ela está fascinada com tudo o que diz respeito à Universidade: com as aulas, com a biblioteca, com os projetos de pesquisa e extensão, com o restaurante universitário, mas especialmente com a carteirinha de estudante que ela pode utilizar para pagar meia entrada no cinema. Semana passada, Vovó Zazá e seus colegas de turma foram ao cinema assistir a um filme, mas ficaram estarrecidos com o aumento do preço do ingresso. Revoltados, eles decidiram fazer uma manifestação contra o sistema capitalista opressor, agendada para amanhã na Praça General Bertaso. Vovó Zazá quer colaborar com o movimento fazendo um cartaz com a seguinte palavra de ordem: QUE ABSURDO! O PREÇO DO CINEMA SUBIU … % !! Mas ela não é muito boa em Matemática, e está solicitando sua ajuda para calcular a porcentagem de que precisa para completar o cartaz.",
+        "titulo": "O Filme",
+        "entrada": "A única linha da entrada consiste de dois valores A e B (0.00 < A ≤ B ≤ 1000.00), os quais, fornecidos com exatos dois dígitos após o ponto separador decimal, representam respectivamente o valor antigo e o valor novo do ingresso do cinema."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1176",
+        "saida": "Para cada caso de teste da entrada, imprima a mensagem \"Fib(N) = X\", onde X é o N-ésimo termo da série de Fibonacci.",
+        "descricao": "Faça um programa que leia um valor e apresente o número de Fibonacci correspondente a este valor lido. Lembre que os 2 primeiros elementos da série de Fibonacci são 0 e 1 e cada próximo termo é a soma dos 2 anteriores a ele. Todos os valores de Fibonacci calculados neste problema devem caber em um inteiro de 64 bits sem sinal.",
+        "titulo": "Fibonacci em Vetor",
+        "entrada": "A primeira linha da entrada contém um inteiro T, indicando o número de casos de teste. Cada caso de teste contém um único inteiro N (0 ≤ N ≤ 60), correspondente ao N-esimo termo da série de Fibonacci."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2161",
+        "saida": "A saída é o valor aproximado da raiz quadrada com 10 casas decimais.",
+        "descricao": "Uma das formas de calcular a raiz quadrada de um número natural é pelo método das frações periódicas continuadas. Esse método usa como denominador uma repetição de frações. Essa repetição pode ser feita uma quantidade específica de vezes. Por exemplo, ao repetir 2 vezes a fração continuada para calcular a raiz quadrada de 10, temos a fórmula abaixo. Sua tarefa é, dado o número N de repetições, calcular o valor aproximado da raiz quadrada de 10.",
+        "titulo": "Raiz Quadrada de 10",
+        "entrada": "A entrada é um número natural N (0 ≤ N ≤ 100), que indica o número de repetições do denominador na fração continuada."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1564",
+        "saida": "Para cada teste, a saída consiste de uma linha dizendo \"vai ter copa!\" caso não haja reclamações para a presidente. Caso haja reclamações, a saída deverá dizer \"vai ter duas!\".",
+        "descricao": "O Brasil é o país sede da copa esse ano. Porém, há muitas pessoas protestando contra o governo. Em redes sociais é possível ver pessoas afirmando que não vai ter copa devido aos protestos. Mas esses rumores de que não haverá copa são totalmente falsos, a presidente Dilma Roussef já avisou: vai ter copa sim, e se reclamar vai ter duas!",
+        "titulo": "Vai Ter Copa?",
+        "entrada": "A entrada contém vários casos de teste e termina com EOF. Cada caso de teste consiste de uma linha contendo o número N de reclamações sobre a copa encaminhadas para a presidente (0 ≤ N ≤ 100)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1155",
+        "saida": "A saída contém um valor correspondente ao valor de S. O valor deve ser impresso com dois dígitos após o ponto decimal.",
+        "descricao": "Escreva um algoritmo para calcular e escrever o valor de S, sendo S dado pela fórmula: S = 1 + 1/2 + 1/3 + … + 1/100",
+        "titulo": "Sequência S",
+        "entrada": "Não há nenhuma entrada neste problema."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1009",
+        "saida": "Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.",
+        "descricao": "Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.",
+        "titulo": "Salário com Bônus",
+        "entrada": "O arquivo de entrada contém um texto (primeiro nome do vendedor) e 2 valores de dupla precisão (double) com duas casas decimais, representando o salário fixo do vendedor e montante total das vendas efetuadas por este vendedor, respectivamente."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1164",
+        "saida": "Para cada caso de teste de entrada, imprima a mensagem “X eh perfeito” ou “X nao eh perfeito”, de acordo com a especificação fornecida.",
+        "descricao": "Na matemática, um número perfeito é um número inteiro para o qual a soma de todos os seus divisores positivos próprios (excluindo ele mesmo) é igual ao próprio número. Por exemplo o número 6 é perfeito, pois 1+2+3 é igual a 6. Sua tarefa é escrever um programa que imprima se um determinado número é perfeito ou não.",
+        "titulo": "Número Perfeito",
+        "entrada": "A entrada contém vários casos de teste. A primeira linha da entrada contém um inteiro N (1 ≤ N ≤ 20), indicando o número de casos de teste da entrada. Cada uma das N linhas seguintes contém um valor inteiro X (1 ≤ X ≤ 108), que pode ser ou não, um número perfeito."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1175",
+        "saida": "Para cada posição do vetor N, escreva \"N[i] = Y\", onde i é a posição do vetor e Y é o valor armazenado naquela posição.",
+        "descricao": "Faça um programa que leia um vetor N[20]. Troque a seguir, o primeiro elemento com o último, o segundo elemento com o penúltimo, etc., até trocar o 10º com o 11º. Mostre o vetor modificado.",
+        "titulo": "Troca em Vetor I",
+        "entrada": "A entrada contém 20 valores inteiros, positivos ou negativos."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1134",
+        "saida": "Deve ser escrito a mensagem: \"MUITO OBRIGADO\" e a quantidade de clientes que abasteceram cada tipo de combustível, conforme exemplo.",
+        "descricao": "Um Posto de combustíveis deseja determinar qual de seus produtos tem a preferência de seus clientes. Escreva um algoritmo para ler o tipo de combustível abastecido (codificado da seguinte forma: 1.Álcool 2.Gasolina 3.Diesel 4.Fim). Caso o usuário informe um código inválido (fora da faixa de 1 a 4) deve ser solicitado um novo código (até que seja válido). O programa será encerrado quando o código informado for o número 4.",
+        "titulo": "Tipo de Combustível",
+        "entrada": "A entrada contém apenas valores inteiros e positivos."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1098",
+        "saida": "Imprima a sequencia conforme exemplo abaixo.",
+        "descricao": "Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.",
+        "titulo": "Sequencia IJ 4",
+        "entrada": "Não há nenhuma entrada neste problema."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2168",
+        "saida": "A saída é dada em N linhas. Cada linha tem N caracteres, indicando se a quadra correspondente é segura ou insegura. Se uma quadra é segura, mostre o caractere S; se não é segura, mostre o caractere U.",
+        "descricao": "No crepúsculo, a cidade de Portland fica cheia de vampiros e lobisomens. Entretanto, nenhum deles quer ser visto enquanto passeiam pelo centro. Vão ser instaladas câmeras de vigilância em cada esquina do centro de Portland. A cada mês, um mapa atualizado com as câmeras já em funcionamento é disponibilizado no site da prefeitura. Uma quadra é considerada segura se existem câmeras em, pelo menos, duas de suas quatro esquinas. No centro de Portland todas as quadras são quadrados de mesmo tamanho. Sua tarefa é, dado o mapa das câmeras em funcionamento nas esquinas, indicar o status de todas as quadras do centro.",
+        "titulo": "Crepúsculo em Portland",
+        "entrada": "A primeira linha da entrada tem um inteiro positivo N (1 ≤ N ≤ 100). Nas próximas N+1 linhas, existem N+1 números, que indicam, para cada esquina, a presença ou ausência de uma câmera de vigilância em funcionamento. O número 1 indica que existe uma câmera funcionando na esquina, enquanto o número zero indica que não há câmera funcionando."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1116",
+        "saida": "Para cada caso mostre o resultado da divisão com um dígito após o ponto decimal, ou “divisao impossivel” caso não seja possível efetuar o cálculo. Obs.: Cuide que a divisão entre dois inteiros em algumas linguagens como o C e C++ gera outro inteiro. Utilize cast :)",
+        "descricao": "Escreva um algoritmo que leia 2 números e imprima o resultado da divisão do primeiro pelo segundo. Caso não for possível mostre a mensagem “divisao impossivel” para os valores em questão.",
+        "titulo": "Dividindo X por Y",
+        "entrada": "A entrada contém um número inteiro N. Este N será a quantidade de pares de valores inteiros (X e Y) que serão lidos em seguida."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2163",
+        "saida": "A saída é uma única linha com 2 inteiros X e Y separados por um espaço. Eles representam a coordenada (X,Y) do sabre de luz, caso encontrado. Se o terreno não tem um padrão de sabre de luz, X e Y são ambos zero.",
+        "descricao": "Há muito tempo atrás, em uma galáxia muito, muito distante... Após o declínio do Império, sucateiros estão espalhados por todo o universo procurando por um sabre de luz perdido. Todos sabem que um sabre de luz emite um padrão de ondas específico: 42 cercado por 7 em toda a volta. Você tem um sensor de ondas que varre um terreno com N x M células. Veja o exemplo abaixo para um terreno 4 x 7 com um sabre de luz nele (na posição (2, 4)). Você deve escrever um programa que, dado um terreno N x M, procura pelo padrão do sabre de luz nele. Nenhuma varredura tem mais do que um padrão de sabre de luz.",
+        "titulo": "O Despertar da Força",
+        "entrada": "A primeira linha da entrada tem dois números positivos N e M, representando, respectivamente, o número de linhas e de colunas varridos no terreno (3 ≤ N, M ≤ 1000). Cada uma das próximas N linhas tem M inteiros, que descrevem os valores lidos em cada célula do terreno (-100 ≤ Tij ≤ 100, para 1 ≤ i ≤ N e 1 ≤ j ≤ M)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1118",
+        "saida": "Se uma nota inválida for lida, deve ser impressa a mensagem “nota invalida”. Quando duas notas válidas forem lidas, deve ser impressa a mensagem “media = ” seguido do valor do cálculo. Antes da leitura de X deve ser impressa a mensagem \"novo calculo (1-sim 2-nao)\" e esta mensagem deve ser apresentada novamente se o valor da entrada padrão para X for menor do que 1 ou maior do que 2, conforme o exemplo abaixo. A média deve ser impressa com dois dígitos após o ponto decimal.",
+        "descricao": "Escreva um programa para ler as notas da primeira e a segunda avaliação de um aluno. Calcule e imprima a média semestral. O programa só deverá aceitar notas válidas (uma nota válida deve pertencer ao intervalo [0,10]). Cada nota deve ser validada separadamente. No final deve ser impressa a mensagem “novo calculo (1-sim 2-nao)”, solicitando ao usuário que informe um código (1 ou 2) indicando se ele deseja ou não executar o algoritmo novamente, (aceitar apenas os código 1 ou 2). Se for informado o código 1 deve ser repetida a execução de todo o programa para permitir um novo cálculo, caso contrário o programa deve ser encerrado.",
+        "titulo": "Várias Notas Com Validação",
+        "entrada": "O arquivo de entrada contém vários valores reais, positivos ou negativos. Quando forem lidas duas notas válidas, deve ser lido um valor inteiro X . O programa deve parar quando o valor lido para este X for igual a 2."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1050",
+        "saida": "Imprima o nome da cidade correspondente ao DDD existente na entrada. Imprima DDD nao cadastrado caso não existir DDD correspondente ao número digitado.",
+        "descricao": "Leia um número inteiro que representa um código de DDD para discagem interurbana. Em seguida, informe à qual cidade o DDD pertence, considerando a tabela abaixo: Se a entrada for qualquer outro DDD que não esteja presente na tabela acima, o programa deverá informar: DDD nao cadastrado",
+        "titulo": "DDD",
+        "entrada": "A entrada consiste de um único valor inteiro."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1061",
+        "saida": "Na saída, deve ser apresentada a duração do evento, no seguinte formato: W dia(s) X hora(s) Y minuto(s) Z segundo(s) Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto.",
+        "descricao": "Pedrinho está organizando um evento em sua Universidade. O evento deverá ser no mês de Abril, iniciando e terminando dentro do mês. O problema é que Pedrinho quer calcular o tempo em segundos que o evento vai durar, uma vez que ele sabe quando inicia e quando termina o evento.. Sabendo que o evento pode durar de poucos segundos a vários dias, você deverá ajudar Pedrinho a calcular a duração deste evento.",
+        "titulo": "Tempo de um Evento",
+        "entrada": "Como entrada, na primeira linha vai haver a descrição “Dia”, seguido de um espaço e o dia do mês no qual o evento vai começar. Na linha seguinte, será informado o momento no qual o evento vai iniciar, no formato hh : mm : ss. Na terceira e quarta linha de entrada haverá outra informação no mesmo formato das duas primeiras linhas, indicando o término do evento."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1132",
+        "saida": "Imprima a soma de todos os valores não divisíveis por 13 entre os dois valores lidos na entrada, inclusive ambos se for o caso.",
+        "descricao": "Escreva um algoritmo que leia 2 valores inteiros X e Y calcule a soma dos números que não são múltiplos de 13 entre X e Y, incluindo ambos.",
+        "titulo": "Múltiplos de 13",
+        "entrada": "O arquivo de entrada contém 2 valores inteiros quaisquer, não necessariamente em ordem crescente."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1150",
+        "saida": "Imprima uma linha com um número inteiro que representa a quantidade de números inteiros que devem ser somadas, de acordo com a especificação acima.",
+        "descricao": "Faça um programa que leia dois inteiros: X e Z (devem ser lidos tantos valores para Z quantos necessários, até que seja digitado um valor maior do que X para ele). Conte quantos números inteiros devem ser somados em sequência (considerando o X nesta soma) para que a soma ultrapasse a Z o mínimo possível. Escreva o valor final da contagem. A entrada pode conter, por exemplo, os valores 21 21 15 30. Neste caso, é então assumido o valor 21 para X enquanto os valores 21 e 15 devem ser desconsiderados pois são menores ou iguais a X. Como o valor 30 está dentro da especificação (maior do que X) ele será válido e então deve-se processar os cálculos para apresentar na saída o valor 2, pois é a quantidade de valores somados para se produzir um valor maior do que 30 (21 + 22).",
+        "titulo": "Ultrapassando Z",
+        "entrada": "A entrada contém somente valores inteiros, um por linha, podendo ser positivos ou negativos. O primeiro valor da entrada será o valor de X. A próxima linha da entrada irá conter Z. Se Z não atender a especificação do problema, ele deverá ser lido novamente, tantas vezes quantas forem necessárias."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1961",
+        "saida": "A saída é dada em uma única linha. Se o sapo pode chegar no cano mais à direita, escreva \"YOU WIN\". Se o sapo não consegue, escreva \"GAME OVER\".",
+        "descricao": "Em cada fase do jogo do Pula Sapo você deve conduzir seu anfíbio através de uma sequência de canos de alturas diferentes até chegar a salvo no cano mais à direita. Entretanto, o sapo só consegue sobreviver se a diferença de altura entre canos consecutivos for de, no máximo, a altura do pulo do sapo. Caso a altura do cano seguinte seja muito alta, o sapo bate no cano e cai. Se a altura do cano seguinte for muito baixa, o sapo não aguenta a queda. O sapo sempre começa em cima do cano mais à esquerda. Neste jogo, a distância entre os canos é irrelevante, ou seja, o sapo sempre consegue alcançar o próximo cano com um pulo. Você deve escrever um programa que, dadas as alturas dos canos e a altura do pulo do sapo, mostra se a fase do jogo pode ser vencida ou não.",
+        "titulo": "Pula Sapo",
+        "entrada": "A entrada é dada em duas linhas. A primeira tem dois inteiros positivos P e N, a altura do pulo do sapo e o número de canos (1 ≤ P ≤ 5 e 2 ≤ N ≤ 100). A segunda linha tem N inteiros positivos que indicam as alturas dos canos ordenados da esquerda para a direita. Não há altura maior do que 10."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2006",
+        "saida": "A saída contém um inteiro representando o número de concorrentes que obtiveram a resposta correta.",
+        "descricao": "Degustação de chá às escuras é a habilidade de identificar um chá usando apenas seus sentidos do olfato e paladar. Isto faz parte da Competição Ideal de Consumidores de Chá Puro (da sigla em inglês ICPC), que um programa de TV local está organizado. Durante o show, um bule de chá completo é preparado e são entregues uma xícara de chá para cada um dos cinco competidores. Os participantes devem cheirar, saborear e avaliar a amostra, de modo a identificar o tipo de chá, que pode ser: (1) o chá branco; (2) chá verde; (3) chá preto; ou (4) chá de ervas. No final, as respostas são verificadas para determinar o número de suposições corretas. Dado o tipo de chá real e as respostas fornecidas, determinar o número de participantes que receberam a resposta correta.",
+        "titulo": "Identificando o Chá",
+        "entrada": "A primeira linha contém um inteiro T representando o tipo de chá (1 ≤ T ≤ 4). A segunda linha contém cinco inteiros A, B, C, D e E, que indica a resposta dada por cada competidor (1 ≤ A, B, C, D, E ≤ 4)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1021",
+        "saida": "Imprima a quantidade mínima de notas e moedas necessárias para trocar o valor inicial, conforme exemplo fornecido.",
+        "descricao": "Leia um valor de ponto flutuante com duas casas decimais. Este valor representa um valor monetário. A seguir, calcule o menor número de notas e moedas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2. As moedas possíveis são de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. A seguir mostre a relação de notas necessárias.",
+        "titulo": "Notas e Moedas",
+        "entrada": "O arquivo de entrada contém um valor de ponto flutuante N (0 ≤ N ≤ 1000000.00)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1060",
+        "saida": "Imprima uma mensagem dizendo quantos valores positivos foram lidos.",
+        "descricao": "Faça um programa que leia 6 valores. Estes valores serão somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.",
+        "titulo": "Números Positivos",
+        "entrada": "Seis valores, negativos e/ou positivos."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1534",
+        "saida": "Para cada N lido, apresente a saída conforme o exemplo fornecido.",
+        "descricao": "Leia um valor inteiro N que é o tamanho da matriz que deve ser impressa conforme o modelo fornecido.",
+        "titulo": "Matriz 123",
+        "entrada": "A entrada contém vários casos de teste e termina com EOF. Cada caso de teste é composto por um único inteiro N (3 ≤ N < 70), que determina o tamanho (linhas e colunas) de uma matriz que deve ser impressa."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1017",
+        "saida": "Imprima a quantidade de litros necessária para realizar a viagem, com três dígitos após o ponto decimal",
+        "descricao": "Joaozinho quer calcular e mostrar a quantidade de litros de combustível gastos em uma viagem, ao utilizar um automóvel que faz 12 KM/L. Para isso, ele gostaria que você o auxiliasse através de um simples programa. Para efetuar o cálculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade média durante a mesma (em km/h). Assim, pode-se obter distância percorrida e, em seguida, calcular quantos litros seriam necessários. Mostre o valor com 3 casas decimais após o ponto.",
+        "titulo": "Gasto de Combustível",
+        "entrada": "O arquivo de entrada contém dois inteiros. O primeiro é o tempo gasto na viagem (em horas) e o segundo é a velocidade média durante a mesma (em km/h)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1184",
+        "saida": "Imprima o resultado solicitado (a soma ou média), com 1 casa após o ponto decimal.",
+        "descricao": "Leia um caractere maiúsculo, que indica uma operação que deve ser realizada e uma matriz M[12][12]. Em seguida, calcule e mostre a soma ou a média considerando somente aqueles elementos que estão abaixo da diagonal principal da matriz, conforme ilustrado abaixo (área verde).",
+        "titulo": "Abaixo da Diagonal Principal",
+        "entrada": "A primeira linha de entrada contem um único caractere Maiúsculo O ('S' ou 'M'), indicando a operação (Soma ou Média) que deverá ser realizada com os elementos da matriz. Seguem os 144 valores de ponto flutuante que compõem a matriz."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1929",
+        "saida": "Seu programa deve produzir apenas uma linha contendo apenas um caractere, que deve ser ‘S’ caso seja possível formar o triângulo, ou ‘N’ caso não seja possível formar o triângulo.",
+        "descricao": "Ana e suas amigas estão fazendo um trabalho de geometria para o colégio, em que precisam formar vários triângulos, numa cartolina, com algumas varetas de comprimentos diferentes. Logo elas perceberam que não dá para formar triângulos com três varetas de comprimentos quaisquer: se uma das varetas for muito grande em relação às outras duas, não dá para formar o triângulo. Neste problema, você precisa ajudar Ana e suas amigas a determinar se, dados os comprimentos de quatro varetas, é ou não é possível selecionar três varetas, dentre as quatro, e formar um triângulo.",
+        "titulo": "Triângulo",
+        "entrada": "A entrada é composta por apenas uma linha contendo quatro números inteiros A, B, C e D (1 ≤ A, B, C, D ≤ 100)."
+    },
+    {
+        "nivel": "2",
+        "assunto": "1",
+        "numero": "1855",
+        "saida": "A saída deve consistir de uma única linha com um único caracter ! ou *. ! significa que o mapa é inválido. * significa que o mapa é válido.",
+        "descricao": "Sam encontrou um conjunto de mapas do velho Meistre Aemon, que a princípio, deviam mostrar, cada um, a localização de um baú com obsidiana. Entretanto, ao analizar alguns mapas possuíam erros óbvios, e outros só mandando uma equipe para explorar para saber. É certo que alguns mapas apontam para uma localização absurda fora do mapa e alguns terminam em círculos, tornando estes mapas completamente inúteis. Como são muitos mapas, os irmãos da patrulha da noite são poucos e o inverno está chegando, o seu trabalho é fazer um programa para verificar se um mapa leva ou não a um ponto com um baú de obsidiana. Os mapas tem as seguintes características: O ponto de partida de todos os mapas é o canto superior esquerdo. São retangulares e em cada ponto apresenta um destes símbolos: Um espaco de terreno atravessável. Uma flecha, representando uma possível troca de direção; Um baú. Como os lugares que estes mapas descrevem são cheios de perigos, é vital que se siga o caminho descrito no mapa.",
+        "titulo": "Mapa do Meistre",
+        "entrada": "Na primeira linha, está um inteiro positivo x < 100 que simboliza a largura do mapa. Na segunda linha, está um inteiro positivo y < 100 que simboliza a altura do mapa. As linhas seguintes contêm diversos caracteres respeitando as dimensões do mapa. Os caracteres válidos são: Uma flecha para a direita: > Uma flecha para a esquerda: < Uma flecha para baixo: v Uma flecha para cima: ^ Um espaco de terreno atravessável: . Um baú: *"
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1018",
+        "saida": "Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo necessárias, conforme o exemplo fornecido. Não esqueça de imprimir o fim de linha após cada linha, caso contrário seu programa apresentará a mensagem: “Presentation Error”.",
+        "descricao": "Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o valor lido e a relação de notas necessárias.",
+        "titulo": "Cédulas",
+        "entrada": "O arquivo de entrada contém um valor inteiro N (0 < N < 1000000)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1067",
+        "saida": "Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.",
+        "descricao": "Leia um valor inteiro X (1 <= X <= 1000). Em seguida mostre os ímpares de 1 até X, um valor por linha, inclusive o X, se for o caso.",
+        "titulo": "Números Ímpares",
+        "entrada": "O arquivo de entrada contém 1 valor inteiro qualquer."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1837",
+        "saida": "Imprima o quociente q seguido pelo resto r da divisão de a por b.",
+        "descricao": "Começou a 4ạ Maratona de Programação da UFFS! Esperamos que você aproveite as próximas horas que passará conosco e que se divirta muito! Boa sorte! Este é o 3ọ ano do Clube de Programação, projeto de extensão que visa em primeiro lugar tornar os programadores da região brasileira conhecida como Fronteira Sul muito mais aptos a enfrentar os desafios computacionais tanto da academia quanto do mercado do trabalho. Nossa principal estratégia está em promover oficinas e treinos para competições de Programação, não apenas para estudantes da UFFS, mas para quem quiser participar. Apesar das várias dificuldades, estamos muito felizes com os resultados que temos conquistado. Em parceria com a UNOCHAPECÓ, a URI e a UNOESC, colaboramos para fazer de Chapecó nos dois últimos anos a 2ª maior sede do Brasil na etapa regional da Maratona de Programação, o que é mais um indicador do entusiasmo que o povo daqui tem por Programação. Para aquecer você para esta competição, vamos pedir que você desenvolva um programa que calcule o quociente e o resto da divisão de dois números inteiros, pode ser? Lembre que o quociente e o resto da divisão de um inteiro a por um inteiro não-nulo b são respectivamente os únicos inteiros q e r tais que 0 ≤ r < |b| e: a = b × q + r Caso você não saiba, o teorema que garante a existência e a unicidade dos inteiros q e r é conhecido como ‘Teorema da Divisão Euclidiana’ ou ‘Algoritmo da Divisão’.",
+        "titulo": "Prefácio",
+        "entrada": "A entrada é composta por dois números inteiros a e b (-1.000 ≤ a, b < 1.000)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1066",
+        "saida": "Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não esquecendo o final de linha após cada uma.",
+        "descricao": "Leia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.",
+        "titulo": "Pares, Ímpares, Positivos e Negativos",
+        "entrada": "O arquivo de entrada contém 5 valores inteiros quaisquer."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2028",
+        "saida": "A saida é no formato Caso X: N numeros onde X é a ordem do número de casos e N é a quantidade de numeros que contém na sequência completa, na próxima linha a sequência de números com um espaço entre eles. É pedido que deixe uma linha em branco após cada caso.",
+        "descricao": "Hyam é um menino que adora sequências. Ele anda descobrindo sequências interessantes que nem mesmo Fibonacci imaginaria. Certo dia, Hyam percebeu que dado um número N, ele poderia fazer uma sequência do tipo 0 1 2 2 3 3 3 4 4 4 4 ... N N N ... N. No entanto, Hyam percebeu que cada valor que aumentava no número da sequência, a quantidade total de números da sequência aumentava semelhantemente à um crescimento fatorial, neste caso, ao invés de multiplicar, soma-se o número total de números da sequência com o valor do próximo número da sequência. Por exemplo, se N = 2. A sequência correta seria 0 1 2 2, obtendo-se 4 digitos. Agora, se N = 3, o próximo número da sequência tem valor 3, então a quantidade total de número da sequência seria a quantidade de números com N = 2, que é 4, mais o valor do próximo número da sequência, neste caso 3, obtendo-se 7, já que a sequência correta para N = 3 é 0 1 2 2 3 3 3. Sua tarefa é fazer um algoritmo que dado um número inteiro N, tenha como resposta a quantidade total de números dessa sequência e logo abaixo a sequência completa.",
+        "titulo": "Sequência de Sequência",
+        "entrada": "A entrada é composta de vários casos de testes. Cada caso é composto por um inteiro N (0<=N<=200) que indica o valor dos últimos N números da sequência. A entrada termina com final de arquivo (EOF)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1187",
+        "saida": "Imprima o resultado solicitado (a soma ou média), com 1 casa após o ponto decimal.",
+        "descricao": "Leia um caractere maiúsculo, que indica uma operação que deve ser realizada e uma matriz M[12][12]. Em seguida, calcule e mostre a soma ou a média considerando somente aqueles elementos que estão na área superior da matriz, conforme ilustrado abaixo (área verde).",
+        "titulo": "Área Superior",
+        "entrada": "A primeira linha de entrada contem um único caractere Maiúsculo O ('S' ou 'M'), indicando a operação (Soma ou Média) que deverá ser realizada com os elementos da matriz. Seguem 144 valores com ponto flutuante de dupla precisão que compõem a matriz."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1059",
+        "saida": "Imprima todos os números pares entre 1 e 100, inclusive se for o caso, um em cada linha.",
+        "descricao": "Faça um programa que mostre os números pares entre 1 e 100, inclusive.",
+        "titulo": "Números Pares",
+        "entrada": "Neste problema extremamente simples de repetição não há entrada."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1045",
+        "saida": "Imprima todas as classificações do triângulo especificado na entrada.",
+        "descricao": "Leia 3 valores de ponto flutuante A, B e C e ordene-os em ordem decrescente, de modo que o lado A representa o maior dos 3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos seguintes casos, sempre escrevendo uma mensagem adequada: se A ≥ B+C, apresente a mensagem: NAO FORMA TRIANGULO se A2 = B2 + C2, apresente a mensagem: TRIANGULO RETANGULO se A2 > B2 + C2, apresente a mensagem: TRIANGULO OBTUSANGULO se A2 < B2 + C2, apresente a mensagem: TRIANGULO ACUTANGULO se os três lados forem iguais, apresente a mensagem: TRIANGULO EQUILATERO se apenas dois dos lados forem iguais, apresente a mensagem: TRIANGULO ISOSCELES",
+        "titulo": "Tipos de Triângulos",
+        "entrada": "A entrada contem três valores de ponto flutuante de dupla precisão A (0 < A) , B (0 < B) e C (0 < C)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1478",
+        "saida": "Para cada inteiro da entrada imprima a matriz correspondente, de acordo com o exemplo. (os valores das matrizes devem ser formatados em um campo de tamanho 3 justificados à direita e separados por espaço. Após o último caractere de cada linha da matriz não deve haver espaços em branco. Após a impressão de cada matriz deve ser deixada uma linha em branco.",
+        "descricao": "Escreva um algoritmo que leia um inteiro N (0 ≤ N ≤ 100), correspondente a ordem de uma matriz M de inteiros, e construa a matriz de acordo com o exemplo abaixo.",
+        "titulo": "Matriz Quadrada II",
+        "entrada": "A entrada consiste de vários inteiros, um valor por linha, correspondentes as ordens das matrizes a serem construídas. O final da entrada é marcado por um valor de ordem igual a zero (0)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1962",
+        "saida": "A saída tem N linhas. Em cada uma, deve ser indicado o ano A em que o correspondente tempo T aconteceu. Veja o exemplo de saída.",
+        "descricao": "Raul Seixas cantava que nasceu há 10 mil anos atrás e não tinha nada nesse mundo que ele não sabia demais. Os Mamomas Assassinas cantavam que mais de 10 mil anos \"se passaram-se\" [sic] quando eles repetiram a 5a série. Tantos eventos passados e o professor MC ficou curioso para saber em que ano tudo isso aconteceu. Você deve escrever um programa que, dada uma série de número de anos transcorridos, mostre, para cada número, em que ano o evento aconteceu. Lembre-se de indicar se ele aconteceu A.C. (Antes de Cristo) ou D.C. (Depois de Cristo).",
+        "titulo": "Há Muito, Muito Tempo Atrás",
+        "entrada": "A entrada tem várias linhas. A primeira tem um inteiro positivo N (1 ≤ N ≤ 100000). A seguir existem N linhas. Cada uma dessas N linhas tem um único inteiro não negativo T, que indica o número de anos transcorridos até 2015 D.C. (0 ≤ T < 231)."
+    },
+    {
+        "nivel": "2",
+        "assunto": "1",
+        "numero": "1160",
+        "saida": "Imprima, para cada caso de teste, quantos anos levará para que a cidade A ultrapasse a cidade B em número de habitantes. Obs.: se o tempo for mais do que 100 anos o programa deve apresentar a mensagem: Mais de 1 seculo. Neste caso, acredito que seja melhor interromper o programa imediatamente após passar de 100 anos, caso contrário você poderá receber como resposta da submissão deste problema \"Time Limit Exceeded\".",
+        "descricao": "Mariazinha quer resolver um problema interessante. Dadas as informações de população e a taxa de crescimento de duas cidades quaisquer (A e B), ela gostaria de saber quantos anos levará para que a cidade menor (sempre é a cidade A) ultrapasse a cidade B em população. Claro que ela quer saber apenas para as cidades cuja taxa de crescimento da cidade A é maior do que a taxa de crescimento da cidade B, portanto, previamente já separou para você apenas os casos de teste que tem a taxa de crescimento maior para a cidade A. Sua tarefa é construir um programa que apresente o tempo em anos para cada caso de teste. Porém, em alguns casos o tempo pode ser muito grande, e Mariazinha não se interessa em saber exatamente o tempo para estes casos. Basta que você informe, nesta situação, a mensagem \"Mais de 1 seculo.\".",
+        "titulo": "Crescimento Populacional",
+        "entrada": "A primeira linha da entrada contém um único inteiro T, indicando o número de casos de teste (1 ≤ T ≤ 3000). Cada caso de teste contém 4 números: dois inteiros PA e PB (100 ≤ PA ≤ 1000000, PA < PB ≤ 1000000) indicando respectivamente a população de A e B, e dois valores G1 e G2 (0.1 ≤ G1 ≤ 10.0, 0.0 ≤ G2 ≤ 10.0, G2 < G1) com um digito após o ponto decimal cada, indicando respectivamente o crescimento populacional de A e B (em percentual). Atenção: A população é sempre um valor inteiro, portanto, um crescimento de 2.5 % sobre uma população de 100 pessoas resultará em 102 pessoas, e não 102.5 pessoas, enquanto um crescimento de 2.5% sobre uma população de 1000 pessoas resultará em 1025 pessoas. Além disso, não utilize variáveis de precisão simples para as taxas de crescimento."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1064",
+        "saida": "O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.",
+        "descricao": "Leia 6 valores. Em seguida, mostre quantos destes valores digitados foram positivos. Na próxima linha, deve-se mostrar a média de todos os valores positivos digitados, com um dígito após o ponto decimal.",
+        "titulo": "Positivos e Média",
+        "entrada": "A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuante. Pelo menos um destes número será positivo."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2003",
+        "saida": "Para cada caso de teste, imprima \"Atraso maximo: X\" (sem aspas), X indica o atraso maximo (em minutos) de Bino no encontro com Cino.",
+        "descricao": "Domingo é dia de feira. Logo de manhã muitas pessoas se deslocam para o polo de lazer da Parangaba, onde acontece uma feira, conhecida por ser a maior da cidade. Na feira da Parangaba você pode encontrar de tudo. Todos os domingos, Bino faz compras na feira. Ele sempre marca com seu amigo Cino de se encontrarem no terminal de ônibus da Parangaba às 8h, para irem juntos comprar na feira. Porém, muitas vezes Bino acorda muito tarde e se atrasa para o encontro com seu amigo. Sabendo que Bino leva de 30 a 60 minutos para chegar ao terminal. Diga o atraso máximo de Bino.",
+        "titulo": "Domingo de Manhã",
+        "entrada": "A entrada consiste em múltiplos casos teste. Cada caso de tese contém uma única linha contendo um horário H (5:00 ≤ H ≤ 9:00) que Bino acordou. A entrada termina com final de arquivo (EOF)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1178",
+        "saida": "Para cada posição do vetor N, escreva \"N[i] = Y\", onde i é a posição do vetor e Y é o valor armazenado naquela posição. Cada valor do vetor deve ser apresentado com 4 casas decimais.",
+        "descricao": "Leia um valor X. Coloque este valor na primeira posição de um vetor N[100]. Em cada posição subsequente de N (1 até 99), coloque a metade do valor armazenado na posição anterior, conforme o exemplo abaixo. Imprima o vetor N.",
+        "titulo": "Preenchimento de Vetor III",
+        "entrada": "A entrada contem um valor de dupla precisão com 4 casas decimais."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2140",
+        "saida": "Seu programa deverá imprimir \"possible\" se for possível devolver o troco exato ou \"impossible\" se não for possível.",
+        "descricao": "Gilberto é um famoso vendedor de esfirras na região. Porém, apesar de todos gostarem de suas esfirras, ele só sabe dar o troco com duas notas, ou seja, nem sempre é possível receber o troco certo. Para facilitar a vida de Gil, escreva um programa para ele que determine se é possível ou não devolver o troco exato utilizando duas notas. As notas disponíveis são: 2, 5, 10, 20, 50 e 100.",
+        "titulo": "Duas Notas",
+        "entrada": "A entrada deve conter o valor inteiro N da compra realizada pelo cliente e, em seguida, o valor inteiro M pago pelo cliente (N < M ≤ 104). A entrada termina com N = M = 0."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1010",
+        "saida": "A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando de deixar um espaço após os dois pontos e um espaço após o $. O valor deverá ser apresentado com 2 casas após o ponto.",
+        "descricao": "Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.",
+        "titulo": "Cálculo Simples",
+        "entrada": "O arquivo de entrada contém duas linhas de dados. Em cada linha haverá 3 valores, respectivamente dois inteiros e um valor com 2 casas decimais."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1080",
+        "saida": "Apresente o maior valor lido e a posição de entrada, conforme exemplo abaixo.",
+        "descricao": "Leia 100 valores inteiros. Apresente então o maior valor lido e a posição dentre os 100 valores lidos.",
+        "titulo": "Maior e Posição",
+        "entrada": "O arquivo de entrada contém 100 números inteiros, positivos e distintos."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1094",
+        "saida": "Apresente o total de cobaias utilizadas, o total de cada tipo de cobaia utilizada e o percentual de cada uma em relação ao total de cobaias utilizadas, sendo que o percentual deve ser apresentado com dois dígitos após o ponto.",
+        "descricao": "Maria acabou de iniciar seu curso de graduação na faculdade de medicina e precisa de sua ajuda para organizar os experimentos de um laboratório o qual ela é responsável. Ela quer saber no final do ano, quantas cobaias foram utilizadas no laboratório e o percentual de cada tipo de cobaia utilizada. Este laboratório em especial utiliza três tipos de cobaias: sapos, ratos e coelhos. Para obter estas informações, ela sabe exatamente o número de experimentos que foram realizados, o tipo de cobaia utilizada e a quantidade de cobaias utilizadas em cada experimento.",
+        "titulo": "Experiências",
+        "entrada": "A primeira linha de entrada contém um valor inteiro N que indica os vários casos de teste que vem a seguir. Cada caso de teste contém um inteiro Quantia (1 ≤ Quantia ≤ 15) que representa a quantidade de cobaias utilizadas e um caractere Tipo ('C', 'R' ou 'S'), indicando o tipo de cobaia (R:Rato S:Sapo C:Coelho)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1914",
+        "saida": "Para cada caso de teste, imprima uma única linha contendo o nome do jogador vencedor.",
+        "descricao": "Amarelinha provavelmente é a brincadeira em que as crianças da vila mais se divertem, porém a mesma vem causando um bom tempo de discussão e choro nas crianças que a praticam. A causa do transtorno é para decidir quem será o próximo a pular, mas recentemente Quico (O gênio!) teve uma grande ideia para solucionar o problema. Basicamente a brincadeira só poderá ser jogada de dois em dois jogadores e para escolher o próximo jogador Quico indicou o uso do tradicional método par ou ímpar, onde os dois jogadores informam um número e se a soma desses números for par o jogador que escolheu PAR ganha ou vice verso. Entretanto a utilização desse método vem deixando o Quico louco, louco, louco... E por esse motivo ele pediu a sua ajuda! Solicitou a você um programa que dado o nome dos jogadores, suas respectivas escolhas PAR ou IMPAR e os números, informe quem foi o vencedor.",
+        "titulo": "De Quem é a Vez?",
+        "entrada": "A primeira linha de entrada contém um número inteiro QT (1 ≤ QT ≤ 100), indicando a quantidade de casos de teste que vem a seguir. Cada caso de teste contém duas linhas. Na primeira linha será informado o nome do jogador 1 seguido de sua escolha, “PAR” ou “IMPAR” e logo após, o nome do jogador 2 seguido de sua escolha, “PAR” ou “IMPAR”. Na segunda linha de entrada, contém 2 números inteiros N (1 ≤ N ≤ 10⁹) e M (1 ≤ M ≤ 10⁹), representando respectivamente os números escolhidos pelo jogador 1 e pelo jogador 2. É garantido que a escolha (PAR ou IMPAR) do jogador 1 será diferente da escolha (PAR ou IMPAR) do jogador 2 e que o nome dos jogares são formados somente por letras e não ultrapassarão 100 caracteres."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1188",
+        "saida": "Imprima o resultado solicitado (a soma ou média), com 1 casa após o ponto decimal.",
+        "descricao": "Leia um caractere maiúsculo, que indica uma operação que deve ser realizada e uma matriz M[12][12]. Em seguida, calcule e mostre a soma ou a média considerando somente aqueles elementos que estão na área inferior da matriz, conforme ilustrado abaixo (área verde).",
+        "titulo": "Área Inferior",
+        "entrada": "A primeira linha de entrada contem um único caractere Maiúsculo O ('S' ou 'M'), indicando a operação (Soma ou Média) que deverá ser realizada com os elementos da matriz. Seguem os 144 valores de ponto flutuante de dupla precisão (double) que compõem a matriz."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1557",
+        "saida": "Para cada inteiro da entrada imprima a matriz correspondente, de acordo com o exemplo. Os valores das matrizes devem ser formatados em um campo de tamanho T justificados à direita e separados por espaço, onde T é igual ao número de dígitos do maior número da matriz. Após o último caractere de cada linha da matriz não deve haver espaços em branco. Após a impressão de cada matriz deve ser deixada uma linha em branco.",
+        "descricao": "Escreva um algoritmo que leia um inteiro N (0 ≤ N ≤ 15), correspondente a ordem de uma matriz M de inteiros, e construa a matriz de acordo com o exemplo abaixo.",
+        "titulo": "Matriz Quadrada III",
+        "entrada": "A entrada consiste de vários inteiros, um valor por linha, correspondentes as ordens das matrizes a serem construídas. O final da entrada é marcado por um valor de ordem igual a zero (0)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1156",
+        "saida": "A saída contém um valor correspondente ao valor de S. O valor deve ser impresso com dois dígitos após o ponto decimal.",
+        "descricao": "Escreva um algoritmo para calcular e escrever o valor de S, sendo S dado pela fórmula: S = 1 + 3/2 + 5/4 + 7/8 + ... + 39/?",
+        "titulo": "Sequência S II",
+        "entrada": "Não há nenhuma entrada neste problema."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1114",
+        "saida": "Para cada valor lido mostre a mensagem correspondente à descrição do problema.",
+        "descricao": "Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha incorreta informada, escrever a mensagem \"Senha Invalida\". Quando a senha for informada corretamente deve ser impressa a mensagem \"Acesso Permitido\" e o algoritmo encerrado. Considere que a senha correta é o valor 2002.",
+        "titulo": "Senha Fixa",
+        "entrada": "A entrada é composta por vários casos de testes contendo valores inteiros."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1020",
+        "saida": "Imprima a saída conforme exemplo fornecido.",
+        "descricao": "Leia um valor inteiro correspondente à idade de uma pessoa em dias e informe-a em anos, meses e dias Obs.: apenas para facilitar o cálculo, considere todo ano com 365 dias e todo mês com 30 dias. Nos casos de teste nunca haverá uma situação que permite 12 meses e alguns dias, como 360, 363 ou 364. Este é apenas um exercício com objetivo de testar raciocínio matemático simples.",
+        "titulo": "Idade em Dias",
+        "entrada": "O arquivo de entrada contém um valor inteiro."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1983",
+        "saida": "Você deve imprimir o número do estudante que obteve a maior pontuação ou \"Minimum note not reached\" (sem aspas) caso nenhum estudante tenha tirado uma nota maior ou igual a 8.",
+        "descricao": "As aulas do Prof. Jatobá estão dando o que falar. Os representantes do MEC vieram até a UNIME de Lauro de Freitas para saber mais detalhes sobre essa nova forma de ensinar Algoritmos. Além disso, eles queriam selecionar 1 aluno para participar da OBI-Tec (Olimpíada Brasileira de Informática Nível Técnica) e representar a rede Kroton na competição, pois sabem que lá estão os melhores. Para selecionar o melhor, eles tem disponível uma lista com o número de inscrição de cada aluno e a sua respectiva nota na disciplina. Sua tarefa é ajudar o pessoal do MEC a encontrar o aluno mais apto a representar a instituição e quem sabe garantir sua vaga. Só tem um detalhe, se a nota mais alta não for maior ou igual a 8, você deverá imprimir “Minimum note not reached”.",
+        "titulo": "O Escolhido",
+        "entrada": "O arquivo contém primeiro a quantidade de alunos (3 <= n <= 100) existentes e em seguida, os n alunos contendo o número da matrícula (0 < m < 1000000) de cada um, seguido da respectiva nota (0 <= nota <= 10.0, com 1 casa decimal). Obs.: as notas não serão repetidas. Ou seja, não tem chance de ter dois alunos com a mesma nota."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1866",
+        "saida": "Para cada caso de teste imprima um número S, que é o resultado da soma dos N termos da expressão.",
+        "descricao": "Dois amigos pedem ao atendente de uma lanchonete propor um desafio, de modo que quem acertasse mais, não precisaria pagar a conta. Então foi proposto o seguinte: Dado o seguinte somatório abaixo, informar o resultado, com uma quantidade de termos no mesmo: S = 1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 ... Escreva um programa que, dada uma quantidade de termos, informar o resultado do somatório acima.",
+        "titulo": "Conta",
+        "entrada": "Um número inteiro C será informado, que será a quantidade de casos de teste. Cada caso de teste inicia com um número inteiro N (1 ≤ N ≤ 1000), indicando a quantidade de termos da soma."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1012",
+        "saida": "O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a uma das áreas descritas acima, sempre com mensagem correspondente e um espaço entre os dois pontos e o valor. O valor calculado deve ser apresentado com 3 dígitos após o ponto decimal.",
+        "descricao": "Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre: a) a área do triângulo retângulo que tem A por base e C por altura. b) a área do círculo de raio C. (pi = 3.14159) c) a área do trapézio que tem A e B por bases e C por altura. d) a área do quadrado que tem lado B. e) a área do retângulo que tem lados A e B.",
+        "titulo": "Área",
+        "entrada": "O arquivo de entrada contém três valores com um dígito após o ponto decimal."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1095",
+        "saida": "Imprima a sequencia conforme exemplo abaixo",
+        "descricao": "Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.",
+        "titulo": "Sequencia IJ 1",
+        "entrada": "Não há nenhuma entrada neste problema."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1189",
+        "saida": "Imprima o resultado solicitado (a soma ou média), com 1 casa após o ponto decimal.",
+        "descricao": "Leia um caractere maiúsculo, que indica uma operação que deve ser realizada e uma matriz M[12][12]. Em seguida, calcule e mostre a soma ou a média considerando somente aqueles elementos que estão na área esquerda da matriz, conforme ilustrado abaixo (área verde).",
+        "titulo": "Área Esquerda",
+        "entrada": "A primeira linha de entrada contem um único caractere Maiúsculo O ('S' ou 'M'), indicando a operação (Soma ou Média) que deverá ser realizada com os elementos da matriz. Seguem os 144 valores de ponto flutuante que compõem a matriz."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1042",
+        "saida": "Imprima a saída conforme foi especificado.",
+        "descricao": "Leia 3 valores inteiros e ordene-os em ordem crescente. No final, mostre os valores em ordem crescente, uma linha em branco e em seguida, os valores na sequência como foram lidos.",
+        "titulo": "Sort Simples",
+        "entrada": "A entrada contem três números inteiros."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1183",
+        "saida": "Imprima o resultado solicitado (a soma ou média), com 1 casa após o ponto decimal.",
+        "descricao": "Leia um caractere maiúsculo, que indica uma operação que deve ser realizada e uma matriz M[12][12]. Em seguida, calcule e mostre a soma ou a média considerando somente aqueles elementos que estão acima da diagonal principal da matriz, conforme ilustrado abaixo (área verde).",
+        "titulo": "Acima da Diagonal Principal",
+        "entrada": "A primeira linha de entrada contem um único caractere Maiúsculo O ('S' ou 'M'), indicando a operação (Soma ou Média) que deverá ser realizada com os elementos da matriz. Seguem os 144 valores de ponto flutuante que compõem a matriz."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1180",
+        "saida": "A primeira linha apresenta a mensagem “Menor valor:” seguida de um espaço e do menor valor lido na entrada. A segunda linha apresenta a mensagem “Posicao:” seguido de um espaço e da posição do vetor na qual se encontra o menor valor lido, lembrando que o vetor inicia na posição zero.",
+        "descricao": "Faça um programa que leia um valor N. Este N será o tamanho de um vetor X[N]. A seguir, leia cada um dos valores de X, encontre o menor elemento deste vetor e a sua posição dentro do vetor, mostrando esta informação.",
+        "titulo": "Menor e Posição",
+        "entrada": "A primeira linha de entrada contem um único inteiro N (1 < N < 1000), indicando o número de elementos que deverão ser lidos em seguida para o vetor X[N] de inteiros. A segunda linha contém cada um dos N valores, separados por um espaço."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1924",
+        "saida": "Imprima o nome do curso que Vitória deve fazer, sem acentuação.",
+        "descricao": "Está para nascer alguém mais indeciso do que Vitória. Apesar dela saber que é uma ótima programadora, daquelas que possui projetos na área de TI publicados e diversos outros em andamento, ela não tem certeza se vai seguir na área. Há noites que ela diz que não quer Computação, há dias que ela diz que quer alguma Engenharia, em outros ela quer qualquer outro curso, já chegou até a pensar em algum de Humanas, que pecado! Mas você está aqui pra ajudá-la. A sua tarefa é bem simples, será dado uma lista com diversos nomes de cursos de graduação e você terá que imprimir o nome do curso que Vitória deve fazer.",
+        "titulo": "Vitória e a Indecisão",
+        "entrada": "A primeira linha de entrada contém um inteiro 1 ≤ n ≤ 2000, que representa a quantidade de cursos a serem considerados. Cada uma das próximas n linhas irá conter uma cadeia de caracteres S, 1 ≤ |S| ≤ 100, representando o nome do curso."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1036",
+        "saida": "Se não houver possibilidade de calcular as raízes, apresente a mensagem \"Impossivel calcular\". Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto, com uma mensagem correspondente conforme exemplo abaixo. Imprima sempre o final de linha após cada mensagem.",
+        "descricao": "Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 ou raiz de numero negativo.",
+        "titulo": "Fórmula de Bhaskara",
+        "entrada": "Leia três valores de ponto flutuante (double) A, B e C."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2159",
+        "saida": "A saída são dois valores P e M com 1 casa decimal cada, tal que P < π(n) < M, de acordo com a fórmula dada acima. Os valores devem ser separados por um espaço em branco.",
+        "descricao": "Schoenfeld e Rosser publicaram em 1962 um artigo descrevendo um valor mínimo e máximo para a quantidade de números primos até n, para n ≥ 17. Esta quantidade é representada pela função π(n) e a fórmula é mostrada abaixo. Sua tarefa é, dado um natural n, calcular o mínimo e máximo do intervalo para o número aproximado de primos até n.",
+        "titulo": "Número Aproximado de Primos",
+        "entrada": "A entrada é um número natural n (17 ≤ n ≤ 109)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2126",
+        "saida": "Para cada caso de teste imprima a quantidade de subsequências contíguas e a posição onde a subsequência é iniciada, caso exista mais de uma subsequência, imprima onde é iniciada a última subsequência. Caso não exista subsequência, imprima \"Nao existe subsequencia\". Mostre o resultado conforme o exemplo de saída.",
+        "descricao": "Dados dois números naturais N1 e N2, diz-se que N1 é subsequência contígua de N2 se todos os dígitos de N1 aparecem, na mesma ordem e de forma contígua, em N2. Crie uma aplicação que leia dois números naturais e diga se o primeiro é uma subsequência contígua do segundo.",
+        "titulo": "Procurando Subsequências",
+        "entrada": "A entrada é composta por vários casos de teste e termina com final de arquivo (EOF). A primeira linha de cada entrada é composta por um valor natural N1(1 < N1 < 1010), a segunda linha é composta por um valor N2( N1 < N2 < 1032)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "2059",
+        "saida": "Imprima \"Jogador 1 ganha!\" se o jogador 1 ganhou ou \"Jogador 2 ganha!\" se o jogador 2 ganhou (sem as aspas).",
+        "descricao": "Um novo jogo chamado Ímpar, Par ou Roubo (IPR) está se tornando muito popular. Esse jogo surgiu quando alguns amigos estavam sem conexão com a internet, sem celular, sem computador e bastante desocupados. O jogo está tão popular que irá acontecer um campeonato mundial de IPR e cada país do mundo irá escolher um representante para competir. O jogo funciona da seguinte forma: dois jogadores participam, o jogador 1 escolhe entre par ou ímpar, então cada jogador escolhe um inteiro positivo, se a soma desses números for par e o jogador 1 tiver escolhido par então o jogador 1 ganha, se a soma for ímpar o jogador 2 ganha. Caso o jogador 1 tivesse escolhido ímpar ele ganharia se a soma fosse ímpar, caso a soma fosse par o jogador 2 ganharia. Nada de diferente de um jogo de par ou ímpar convencional, correto? A diferença do jogo é que o jogador 1 pode roubar e assim assegurar sua vitória independentemente do resultado do jogo de ímpar ou par convencional, já o jogador 2 pode ou não acusar o jogador 1 de roubo. Com essas adições no jogo se o jogador 1 roubar e o jogador 2 acusar o roubo então o jogador 2 ganha, caso o jogador 2 não acuse o roubo e o jogador 1 roubar então o jogador 1 ganha, caso o jogador 2 acuse o roubo, mas o jogador 1 não tiver roubado então o jogador 1 ganha, se o jogador 1 não roubar e o jogador 2 não acusar o roubo o jogo segue como descrito anteriormente. Você foi contratado pela OIIPR (Organização Internacional de Ímpar, Par ou Roubo) para desenvolver um programa que dada a escolha do jogador 1 entre par ou ímpar, os números escolhidos como jogada e as ações dos jogadores (roubo/acusação) mostre quem foi o vencedor.",
+        "titulo": "Ímpar, Par ou Roubo",
+        "entrada": "A entrada consite de uma única linha contendo 5 inteiros: p, j1, j2, r, a. ( 0 ≤ p, r, a ≤ 1 e 1 ≤ j1, j2 ≤ 100). p representa a escolha do jogador 1 (se p = 1 então o jogador 1 escolheu par, se p = 0 então o jogador 1 escolheu ímpar). Os valores j1, j2, representam respectivamente o número escolhido pelo jogador 1 e pelo jogador 2. r representa se o jogador 1 roubou (se r = 1 então o jogador 1 roubou, se r = 0 então o jogador 1 não roubou), a representa se o jogador 2 acusou o roubo (se a = 1 então o jogador 2 acusou o jogador 1 de roubo, se a = 0 então ele não acusou o jogador 1 de roubo)."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1046",
+        "saida": "Apresente a duração do jogo conforme exemplo abaixo.",
+        "descricao": "Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.",
+        "titulo": "Tempo de Jogo",
+        "entrada": "A entrada contém dois valores inteiros representando a hora de início e a hora de fim do jogo."
+    },
+    {
+        "nivel": "1",
+        "assunto": "1",
+        "numero": "1074",
+        "saida": "Para cada caso, imprima uma mensagem correspondente, de acordo com o exemplo abaixo. Todas as letras deverão ser maiúsculas e sempre deverá haver um espaço entre duas palavras impressas na mesma linha.",
+        "descricao": "Leia um valor inteiro N. Este valor será a quantidade de valores que serão lidos em seguida. Para cada valor lido, mostre uma mensagem em inglês dizendo se este valor lido é par (EVEN), ímpar (ODD), positivo (POSITIVE) ou negativo (NEGATIVE). No caso do valor ser igual a zero (0), embora a descrição correta seja (EVEN NULL), pois por definição zero é par, seu programa deverá imprimir apenas NULL.",
+        "titulo": "Par ou Ímpar",
+        "entrada": "A primeira linha da entrada contém um valor inteiro N(N < 10000) que indica o número de casos de teste. Cada caso de teste a seguir é um valor inteiro X (-107 < X <107)."
+    }
+]
